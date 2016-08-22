@@ -1,0 +1,167 @@
+@-moz-document domain("musixmatch.com") {
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .3)
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, .4)
+}
+
+body,
+#contributors,
+#mobile-feature,
+#mxm-home-artist-index,
+#footer {
+    color: #848484;
+    background: #2B2B2B;
+}
+
+h1,
+h2,
+.feature h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #848484;
+}
+
+#home-search #search-bar input {
+    background: rgba(53, 52, 51, 0.8);
+    color: #848484;
+}
+
+#home-search #search-bar input:focus {
+    background: rgba(53, 52, 51, 0.9);
+}
+
+#home-populars .tracks li {
+    background-color: #353433;
+}
+
+.tracks.list li {
+    border-bottom: 1px solid #525252;
+}
+
+.list .media-card {
+    background: #353433;
+}
+
+#home-populars .tracks .track-card .media-card-title a,
+#home-populars .tracks .track-card h2.media-card-title a {
+    color: #848484;
+}
+
+#home-populars .tracks .track-card .media-card-picture {
+    border: 1px solid #525252;
+}
+
+#home-populars .tracks li:last-child {
+    border-bottom: 1px solid #525252!important;
+}
+
+#home #header #contribute-button a {
+    border: 1px solid #525252;
+}
+
+#contribute-button a,
+#contribute-button a i {
+    color: #848484;
+}
+
+.users.grid li {
+    background: #353433;
+}
+
+.avatar-icon {
+    background-color: #525252;
+}
+
+.users.grid li .position {
+    border: 2px solid #525252;
+}
+
+.f-dropdown {
+    background: #353433;
+}
+
+.f-dropdown:before {
+    border-color: transparent transparent #353433;
+}
+
+.f-dropdown li:focus,
+.f-dropdown li:hover {
+    background: #2B2B2B;
+}
+
+.f-dropdown li a {
+    color: #848484;
+}
+
+.box.box-style-card,
+.box.box-style-plain {
+    background: #353433;
+}
+
+.list .media-card-body .media-card-secondary-actions {
+    background: #525252;
+}
+
+.media-card-body .media-card-secondary-actions:before {
+    background-image: -webkit-linear-gradient(left, hsla(0, 0%, 100%, 0), #525252);
+    background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #525252);
+}
+
+.tracks.list li:hover {
+    background: #2C2C2C;
+}
+
+.profile-content .section-header {
+    background: #353433;
+}
+
+.navbar {
+    background: #353433;
+}
+
+#search-bar #search-input {
+    background: #2C2C2C;
+    border-left: 1px solid #525252;
+    border-right: 1px solid #2C2C2C;
+}
+
+#header .search-nav:after {
+    background-image: -webkit-linear-gradient(left, #2C2C2C, hsla(0, 0%, 100%, .1));
+    background-image: linear-gradient(90deg, #2C2C2C, hsla(0, 0%, 100%, .1));
+}
+
+.activities.list .activity-item .container .avatar .profile-link {
+    color: #848484;
+}
+
+.activities.list .activity-item .track-card {
+    background: #353433;
+}
+
+.grid .media-card {
+    background: #353433;
+}
+
+.profile-header {
+    background: #2B2B2B;
+}
+}

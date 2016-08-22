@@ -1,0 +1,228 @@
+@-moz-document domain("hounddawgs.org") {
+::-webkit-scrollbar {
+    height: 12px!important;
+    width: 15px!important;
+    background-color: rgba(0, 0, 0, .1)!important;
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 30px!important;
+    background-color: rgba(255, 255, 255, .15)!important;
+    border: 3px solid transparent!important;
+    border-radius: 8px!important;
+    background-clip: padding-box!important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3C3C3C!important;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #4A4A4A!important;
+}
+
+body {
+    background: #1e2023;
+    color: #F0EAE0 !important;
+}
+
+#menu,
+#userinfo,
+#searchbars {
+    background: #222427 !important;
+}
+
+#menu {
+    border-top: 1px solid #393A3D !important;
+}
+
+#searchbars {
+    border-bottom: 1px solid #282A2D !important;
+}
+
+#searchbars input {
+    margin-left: 20px !important;
+    background-color: #222427 !important;
+    font-size: 12.5px !important;
+    border: 1px solid #101215 !important;
+    -webkit-box-shadow: 0px 1px 1px rgba(58, 59, 62, 1) !important;
+    -moz-box-shadow: 0px 1px 1px rgba(58, 59, 62, 1) !important;
+    box-shadow: 0px 1px 1px rgba(58, 59, 62, 1) !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    padding-left: 5px !important;
+    outline: none !important;
+    color: #c2c2c2 !important;
+}
+
+.box {
+    background-color: #181a1d !important;
+    border-bottom: 1px solid #303335 !important;
+    border-left: 1px solid #303335 !important;
+    border-right: 1px solid #303335 !important;
+    border-top: none !important;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5) !important;
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5) !important;
+    -webkit-border-radius: 0 0 5px 5px !important;
+    -moz-border-radius: 0 0 5px 5px !important;
+    border-radius: 0 0 5px 5px !important;
+    text-align: left !important;
+}
+
+.head {
+    padding: 5px !important;
+    border: none !important;
+    background: none !important;
+    color: #86ff72 !important;
+    font-weight: bold !important;
+    margin-top: 15px !important;
+    background-color: #222427 !important;
+    border-top: 1px solid #303335 !important;
+    border-left: 1px solid #303335 !important;
+    border-right: 1px solid #303335 !important;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5) !important;
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5) !important;
+    -webkit-border-radius: 5px 5px 0 0 !important;
+    -moz-border-radius: 5px 5px 0 0 !important;
+    border-radius: 5px 5px 0 0 !important;
+    text-align: left !important;
+}
+
+.pad {
+    padding: 1em;
+    background-color: #222427 !important;
+    margin: 0px 5px 5px 5px !important;
+}
+
+.thin {
+    margin: 0px auto !important;
+}
+
+tr.torrent.rowa td strong,
+tr.torrent.rowb td strong {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 10px;
+    /*animation:blur .75s ease-out infinite;*/
+}
+
+@keyframes blur {
+    from {
+        text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff, 0px 0px 50px #7B96B8, 0px 0px 150px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px -10px 100px #7B96B8, 0px -10px 100px #7B96B8;
+    }
+}
+
+.colhead {
+    width: 1080px;
+    height: 30px;
+    border-bottom: 1px solid #101215;
+    background-color: #1f2023;
+}
+
+.torrent {
+    width: 1080px !important;
+    height: 50px !important;
+    background-color: #2e3033 !important;
+    border-bottom: 1px solid #101215;
+    border-top: 1px solid #393a3d;
+}
+
+.sticky {
+    width: 1080px !important;
+    height: 50px !important;
+    background-color: #222427 !important;
+    border-bottom: 1px solid #101215;
+    border-top: 1px solid #393a3d;
+}
+
+.torrent:hover {
+    background-color: #222427 !important;
+}
+
+.sticky:hover {
+    background-color: #2e3033 !important;
+}
+
+td {
+    border: none !important;
+}
+
+cat_list on_cat_change {
+    float: left;
+    width: 710px;
+    height: 225px;
+    border-bottom: 1px solid #363739;
+}
+
+tr,
+tr.rowa {
+    background-color: #222427;
+}
+
+img.loading {
+    margin: 5px;
+    max-width: 250px !important;
+}
+
+td.overlay {
+    border-bottom: 1px solid black !important;
+}
+
+#footerInfo {
+    bottom: -1px !important;
+    height: 18px !important;
+    box-shadow: none !important;
+    background-color: #222427 !important;
+    border-top: 1px solid #5c6066 !important;
+}
+
+#noticeSystem li.low {
+    padding: 20px 40px;
+    color: #fff;
+    background: url('https://dl.dropboxusercontent.com/u/10825230/hounddawgs/notice_low.png') no-repeat left center;
+    box-shadow: none;
+    border: none;
+    width: 80px;
+    animation: pulse 1s ease infinite;
+    /* transition: transform 0.2s; */
+}
+
+#noticeSystem li.low:hover {
+    color: #fff;
+    width: 175px;
+    animation: pulse 0s ease infinite;
+}
+
+#noticeSystem li.high {
+    color: #E81123;
+    background: rgba(0, 0, 0, 0) url('/static/common/notice_high.png') no-repeat left center;
+    border: none;
+    animation: pulse 0s ease infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#logo {
+    width: 950px !important;
+    background-image: url('https://hounddawgs.org/static/styles/alien_by_brincken/images/alien.png') !important;
+}
+
+#head,
+#foot {
+    background-color: #1E2023;
+}
+}

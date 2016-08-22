@@ -1,0 +1,405 @@
+::-webkit-scrollbar {
+    height: 12px!important;
+    width: 15px!important;
+    background-color: rgba(0, 0, 0, .1)!important;
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 30px!important;
+    background-color: rgba(255, 255, 255, .15)!important;
+    border: 3px solid transparent!important;
+    border-radius: 8px!important;
+    background-clip: padding-box!important;
+}
+
+a:-webkit-any-link {
+    color: #e8e8e8 !important;
+}
+
+a:-webkit-any-link:hover {
+    color: #707070 !important;
+}
+
+span,
+p,
+h3,
+li {
+    color: #58615C !important;
+}
+
+body,
+section.news,
+#subnavbg,
+div#header.off {
+    background: #1d1d1d !important;
+    color: #909090 !important;
+    text-shadow: none !important;
+}
+
+header,
+div#header.movie,
+div#header.tv,
+div#header.person,
+div.edit_header {
+    background: none !important;
+    background: #1D1D1D !important;
+}
+
+p.header {
+    color: #909083 !important;
+    background: #2C2C2C !important;
+    border-bottom: 1px solid #9D9D9D !important;
+}
+
+section.search,
+div#container {
+    background: none;
+    background-color: #2c2c2c!important;
+}
+
+section.search form input[type="text"] {
+    background: transparent !important;
+}
+
+section.search form input[type="text"]:focus {
+    box-shadow: 0 0 34px black;
+}
+
+select {
+    color: #E8E8E8 !important;
+    background-color: #2C2C2C !important;
+    border-color: rgb(44, 44, 44) !important;
+}
+
+ul.tagit {
+    border-bottom: none !important;
+    width: 200px !important;
+}
+
+ul.tagit input[type="text"],
+span.tagit-label {
+    color: #A9A9A9 !important;
+}
+
+section.main_content nav > ul li a:hover,
+section.main_content nav > ul li a.active,
+section.main_content nav > ul > li > a {
+    border-bottom: 2px solid rgb(44, 44, 44) !important;
+}
+
+section.main_content nav > ul {
+    border-top: 2px solid rgb(44, 44, 44) !important;
+}
+
+code {
+    background-color: #2C2C2C !important;
+}
+
+ul#toolbar {
+    background: #1D1D1D !important;
+    border: 1px solid #2C2C2C !important;
+    -moz-box-shadow: 0 1px #2C2C2C !important;
+    -webkit-box-shadow: 0 1px #2C2C2C !important;
+    box-shadow: 0 1px #2C2C2C !important;
+}
+
+ul#toolbar li a,
+ul#list_menu,
+ul.dropdown li a {
+    text-shadow: none !important;
+}
+
+ul#toolbar li div.sub_menu,
+h2 span div.sub_menu {
+    background: #1D1D1D;
+    border: 1px solid #1D1D1D;
+    -moz-box-shadow: 0 1px #1D1D1D;
+    -webkit-box-shadow: 0 1px #1D1D1D;
+    box-shadow: 0 1px #1D1D1D;
+}
+
+.image_carousel img:first-child {
+    border-left: 1px solid #2C2C2C !important;
+    border-top: 1px solid #2C2C2C !important;
+    border-bottom: 1px solid #2C2C2C !important;
+}
+
+.image_carousel img {
+    border-top: 1px solid #2C2C2C !important;
+    border-bottom: 1px solid #2C2C2C !important;
+    background-color: #1D1D1D !important;
+}
+
+.k-list-container {
+    color: #676767 !important;
+    border: 1px solid #1D1D1D !important;
+    background-color: #2C2C2C !important;
+}
+
+.k-popup .k-list .k-state-hover,
+.k-popup .k-list .k-state-focused,
+.k-popup .k-list .k-state-selected {
+    border-width: 0px !important;
+    border-style: none !important;
+}
+
+.k-autocomplete.k-state-default,
+.k-picker-wrap.k-state-default,
+.k-numeric-wrap.k-state-default,
+.k-dropdown-wrap.k-state-default {
+    background-image: none !important;
+    border-color: rgb(29, 29, 29) !important;
+    background-color: #2C2C2C !important;
+    border-radius: 0 !important;
+}
+
+.k-state-hover>.k-select {
+    border-color: rgb(29, 29, 29) !important;
+}
+
+.k-state-hover {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.k-state-hover,
+.k-state-hover:hover,
+.k-splitbar-horizontal-hover:hover,
+.k-splitbar-vertical-hover:hover,
+.k-list>.k-state-hover,
+.k-scheduler .k-scheduler-toolbar ul li.k-state-hover,
+.k-pager-wrap .k-link:hover,
+.k-dropdown .k-state-focused,
+.k-imagebrowser-dropzone,
+.k-mobile-list .k-item>.k-link:active,
+.k-mobile-list .k-item>.k-label:active,
+.k-mobile-list .k-edit-label.k-check:active,
+.k-mobile-list .k-scheduler-timezones .k-edit-field:nth-child(2):active,
+.k-mobile-list .k-recur-view .k-check:active,
+.k-state-selected,
+.k-state-selected:link,
+.k-state-selected:visited,
+.k-list>.k-state-selected,
+.k-list>.k-state-highlight,
+.k-panel>.k-state-selected,
+.k-button:active,
+.k-ghost-splitbar-vertical,
+.k-ghost-splitbar-horizontal,
+.k-draghandle.k-state-selected:hover,
+.k-scheduler .k-scheduler-toolbar .k-state-selected,
+.k-marquee-color {
+    color: #DCE8CA !important;
+    background-color: #1D1D1D !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.k-menu {
+    background-color: #2C2C2C !important;
+}
+
+.k-menu.k-header,
+.k-menu .k-item {
+    border-color: #1D1D1D !important;
+}
+
+.k-menu .k-group,
+.k-popup.k-context-menu.k-group {
+    border-color: #1D1D1D;
+}
+
+.k-group,
+.k-flatcolorpicker.k-group,
+.k-menu,
+.k-menu .k-group,
+.k-popup.k-widget.k-context-menu {
+    background-color: #2C2C2C;
+}
+
+.k-menu .k-state-active,
+.k-popup.k-context-menu.k-group .k-state-hover {
+    background-color: #1D1D1D;
+    border-color: #1D1D1D;
+}
+
+ul.tabs li.current,
+ul[role=tablist] li.current {
+    background-image: -webkit-linear-gradient(#2A2A2A 0%, #292929 100%) !important;
+    background-image: -moz-linear-gradient(#2A2A2A 0%, #292929 100%) !important;
+    -moz-box-shadow: rgba(255, 255, 255, 0.7) 0px 1px 0px inset !important;
+    -webkit-box-shadow: rgb(102, 102, 102) 0px 1px 0px inset !important;
+    box-shadow: rgb(102, 102, 102) 0px 1px 0px inset !important;
+}
+
+div.new input[type="text"],
+div.new input[type="password"],
+div.new textarea,
+input.content[type="text"],
+section.content input[type="text"],
+section.content input[type="password"],
+section.content textarea {
+    border: 1px solid #292929 !important;
+    background: -webkit-linear-gradient(rgb(41, 41, 41), #292929) !important;
+    background: -moz-linear-gradient(rgb(41, 41, 41), #292929) !important;
+    -webkit-box-shadow: 0px 1px 0px #2c2c2c, rgba(41, 41, 41, .35) 0px 4px 5px -5px inset !important;
+    -moz-box-shadow: 0px 1px 0px #2c2c2c, rgba(41, 41, 41, .35) 0px 4px 5px -5px inset !important;
+    box-shadow: 0px 1px 0px #2c2c2c, rgba(41, 41, 41, .35) 0px 4px 5px -5px inset !important;
+}
+
+div#header ul#nav form input#search {
+    color: #E8E8E8;
+    background: #1D1D1D !important;
+    background-color: #1D1D1D !important;
+    border: 0px solid #2C2C2C !important;
+}
+
+div#header ul#nav form input#search:focus {
+    border: 1px solid #757575 !important;
+}
+
+.tt-dropdown-menu {
+    background-color: #2C2C2C !important;
+    border: none !important;
+    -webkit-box-shadow: 0 0 34px black !important;
+    -moz-box-shadow: 0 0 34px black !important;
+    box-shadow: 0 0 34px black !important;
+}
+
+.tt-suggestion:hover {
+    background: #1d1d1d !important;
+}
+
+.tt-suggestion + .tt-suggestion {
+    border-top: 1px solid #1D1D1D !important;
+}
+
+div.image_content a div::after {
+    background-color: rgba(29, 29, 29, 0.75) !important;
+}
+
+div#lightbox_popup {
+    background: #0F0F0F !important;
+}
+
+div.new .carton {
+    background: linear-gradient(rgb(29, 29, 29), #2C2C2C) !important;
+    background: -moz-linear-gradient(rgb(29, 29, 29), #2C2C2C) !important;
+    background: -webkit-linear-gradient(rgb(29, 29, 29), #2C2C2C) !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+div.new .carton > h2,
+div.new .carton .background .content > h2 {
+    text-shadow: none !important;
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)) !important;
+    border-bottom: 1px solid #2C2C2C !important;
+    box-shadow: #2C2C2C 0px 2px 0px !important;
+    -webkit-box-shadow: #2C2C2C 0px 2px 0px !important;
+    -moz-box-shadow: #2C2C2C 0px 2px 0px !important;
+}
+
+ul.keywords li {
+    background: #222 url('https://d3a8mw37cqal2z.cloudfront.net/images/tag-small.png') no-repeat !important;
+    background-position: 2px 2px !important;
+}
+
+ul.tags li {
+    background: #222222 url('https://d3a8mw37cqal2z.cloudfront.net/images/tag.png') no-repeat !important;
+    background-position: 6px 4px !important;
+}
+
+ul.tabs.less_sub_space li.selected,
+ul.tabs.less_sub_space li.sub_item.selected {
+    background-image: none;
+    background-color: #1D1D1D !important;
+    border-left: 5px solid #456D00;
+    text-shadow: none;
+}
+
+ul.tabs li.selected,
+ul.tabs li.sub_item.selected {
+    -moz-box-shadow: rgb(29, 29, 29) 0px 1px 0px inset;
+    -webkit-box-shadow: rgb(29, 29, 29) 0px 1px 0px inset;
+    box-shadow: rgb(29, 29, 29) 0px 1px 0px inset;
+    text-shadow: none;
+}
+
+ul.tabs li,
+ul[role=tablist] li {
+    border-bottom: 1px solid #1D1D1D;
+    -webkit-box-shadow: #1D1D1D 0px 1px 0px;
+    -moz-box-shadow: #1D1D1D 0px 1px 0px;
+    box-shadow: #1D1D1D 0px 1px 0px;
+    text-shadow: none;
+}
+
+ul.tabs:after,
+ul[role=tablist]:after {
+    background-color: #1D1D1D;
+}
+
+div.inner_content h3,
+div#movie h4,
+div#person h4,
+div#tv h4 {
+    border-bottom: 2px solid #1D1D1D !important;
+}
+
+.image_carousel img:last-child {
+    border-right: 2px solid #1D1D1D !important;
+}
+
+h2.category,
+h3.category {
+    border-bottom: 1px solid #2C2C2C !important;
+}
+
+table tbody tr th {
+    background-color: #1D1D1D !important;
+}
+
+pre {
+    background-color: #2C2C2C;
+}
+
+table thead {
+    border-bottom: 2px solid #2C2C2C;
+}
+
+table tbody {
+    border-bottom: 2px solid #2C2C2C;
+}
+
+.wizard > .actions a,
+.wizard > .actions a:hover,
+.wizard > .actions a:active,
+.wizard > .actions a,
+.wizard > .actions a:hover,
+.wizard > .actions a:active {
+    box-shadow: none;
+}
+
+ul.tabs li.current,
+ul[role=tablist] li.current {
+    background-image: -webkit-linear-gradient(#2C2C2C 0%, #1D1D1D 100%) !important;
+    background-image: -moz-linear-gradient(#2C2C2C 0%, #1D1D1D 100%) !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+ul.tabs li:hover,
+ul[role=tablist] li:hover {
+    background-image: -webkit-linear-gradient(#2C2C2C 0%, #1D1D1D 100%) !important;
+    background-image: -moz-linear-gradient(#2C2C2C 0%, #1D1D1D 100%) !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+table.credits th {
+    border-bottom: 2px solid #1D1D1D;
+    background-color: transparent !important;
+}

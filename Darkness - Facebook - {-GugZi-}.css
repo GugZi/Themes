@@ -1,0 +1,3299 @@
+@-moz-document domain("facebook.com") {
+/*!========================================\\
+|| dark-facebook [generation 2]            ||  Date: 2015-03-18
+||-----------------------------------------||  Revision: 4dbe50a
+|| a simple dark theme for facebook.       ||
+|| https://github.com/dtinth/dark-facebook ||  License: CC-BY-SA
+\\----------------------------------------!*/
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .3)
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, .4)
+}
+
+#admin_panel .uiDataTable td,
+#admin_panel_notifications .blueName,
+#bfb_options_button_li ul a,
+#contentCol,
+#fbCalendarWrapper,
+#fbTimelineHeadline h2,
+#inviteTypeahead,
+#pageNav ul.navigation .navSubmenu,
+#pageNav ul.navigation .navSubmenu input,
+#userNavigation .navSubmenu,
+#userNavigation .navSubmenu input,
+.UFIAddCommentInput,
+.UFIList,
+.UFIList .uiTypeahead,
+.UFIReplyList,
+.UFIRow,
+.UIShareStage a.inline_edit,
+.UIShareStage_Title,
+.UIStandardFrame_Container,
+._-text-color,
+._1nc6 ._5w1r,
+._1nc6 ._5w1r:before,
+._1yv .fcb,
+._1zw4 ._1zw6,
+._2o49,
+._2o49 .uiInputLabelLegacy label,
+._2pt textarea:not(.DOMControl_placeholder),
+._2w3>._30f,
+._33e,
+._4-u2,
+._4-u2 h1,
+._4-u2 h2,
+._4-u2 h3,
+._4-u2 h4,
+._4-u2 h5,
+._4-u2 h6,
+._4_ug,
+._519b ._9lb,
+._53ad,
+._558b ._54nc,
+._55d0,
+._55ln,
+._569t ._54nc,
+._585- ._5861,
+._5861 ._586f,
+._5861 ._586i,
+._59s7 .uiInputLabelLegacy label,
+._5av,
+._5ay5 ._52id,
+._5o3n,
+._5o3p.selected,
+._5sem .timelineUnitContainer,
+._5vx4 li a,
+._6dh ._519b ._2-s,
+.__wu .uiSearchInput.textInput#u_0_h,
+._guu,
+._kj3,
+._kso,
+._kso:before,
+._l1,
+._r7,
+._r7 a,
+._z6j,
+.adminPanelList .author,
+.appCenterCategoryBanner,
+.appCenterCategoryBanner .description,
+.appCenterInvite,
+.appCenterInvite .header,
+.appCenterRequests .appRequests .header,
+.appCenterSmallCuratedSlot,
+.app_center #contentCol .apps_list,
+.app_center .leftNavTitle a,
+.appsListDescription,
+.bfb_hide_menu div.bfb_item,
+.composerTypeahead,
+.dark-fb--dfb-box,
+.dark-fb--typeahead,
+.fbBookmarksSeeAllList .itemLabel,
+.fbChatTab .name,
+.fbChatTypeahead,
+.fbFeedTicker .fbFeedTickerStory .tickerStoryLink,
+.fbFeedbackContent,
+.fbFeedbackPost .postText,
+.fbNubButton,
+.fbNubFlyoutAttachments,
+.fbNubFlyoutBody,
+.fbNubFlyoutFooter,
+.fbNubFlyoutFooter textarea,
+.fbNubFlyoutHeader,
+.fbPhotoAlbumTitle,
+.fbSettingsList .fbSettingsListItemLabel,
+.fbSettingsSectionsItemName,
+.fbTimelineSummarySection span.fbLongBlurb,
+.fbTimelineUFI,
+.fbTimelineUnit,
+.friendListAddTypeahead,
+.groupsJumpBarTop .groupsCleanLinksSelected .groupsJumpTitle,
+.highlight[style],
+.inputtext:not(.DOMControl_placeholder),
+.megaphone_box,
+.messagesContent .author,
+.messagesContent:hover .author span,
+.selectedFolder ._1n,
+.socialReport .fwb.fcb,
+.socialReport li label,
+.sourceSuggestionMegaphoneFirstHeader,
+.sourceSuggestionMegaphoneSecondHeader,
+.textInput:not(.DOMControl_placeholder),
+.uiHeaderTitle,
+.uiInlineTokenizer,
+.uiMenuItem a,
+.uiSearchInput,
+.uiSearchInput span input,
+.uiStreamMessage .messageBody,
+.uiToken,
+.uiTokenizer,
+.uiTypeaheadView li,
+body:not(.plugin),
+ul.fbChatOrderedList li a {
+    color: #848484!important;
+}
+
+._3qg0 .metadataFragment .placeToken,
+._3qg0 .metadataFragment .withToken,
+._3qg0 .metadataFragment .askFriends,
+._3qg0 .metadataFragment .og_composer_object,
+._3qg0 .metadataFragment .productItemToken {
+    color: rgb(0, 251, 21);
+}
+
+#pageFooter a,
+.DOMControl_placeholder,
+._-mute-color,
+._5ay5 ._c24,
+._5o3p,
+._5pbw,
+._5srp ._66m,
+.better_fb_cp .sfx_cp_version,
+.dark-fb--common-muted-link,
+.fbNubButton .label .count,
+.groupsJumpBarTop .groupsCleanLink,
+.socialReport .fcb,
+.uiHeader a,
+div._511n,
+div._5w-6,
+h5.uiStreamHeadline {
+    color: #8b8685!important
+}
+
+#admin_panel a,
+#fbCalendarWrapper a,
+#pagelet_timeline_medley_notes .note a,
+#rightCol a,
+#webMessengerRecentMessages a,
+.GM_options_wrapper_inner a,
+.UIStandardFrame_Container a,
+._-link-color,
+._1yv ._t a,
+._2o49 a,
+._2w3>._30f a,
+._4-u2 a,
+._4un0 .title,
+._4yj a,
+._538q a,
+._53ii .uiContextualLayerLeft ._53ij a,
+._59s7 div._4-i2 a,
+._5eha,
+._5sem .timelineUnitContainer a,
+._5srp a,
+._5uch a,
+._698 a,
+._7lu a,
+._9lb,
+.__tw a,
+._guu a,
+._kj3 a,
+._z6j a,
+.appCenterCategoryBanner a,
+.appCenterInvite a,
+.appCenterSmallCuratedSlot a,
+.app_center #contentCol .apps_list a,
+.dark-fb--dfb-box a,
+.dark-fb--page-notifications a,
+.fbFeedbackContent a,
+.fbNubFlyoutAttachments a,
+.fbNubFlyoutBody a,
+.fbNubFlyoutFooter a,
+.fbNubFlyoutHeader a,
+.fbPhotoSnowlift .rhc a,
+.fbRemindersTitle,
+.fbSettingsList .fbSettingsListItemEdit,
+.fbSettingsList .fbSettingsListItemSaved,
+.fbTimelineNavigationWrapper .title .text,
+.fbTimelineSection a,
+.fbTimelineTopSection a,
+.fbTimelineUnit a,
+.fbxWelcomeBox a,
+.jewelFlyout a,
+.megaphone_box a,
+.pageFriendSummaryContainer .headerDigit,
+.permalinkBody #contentArea a,
+.permalinkBody #rightCol a,
+.uiAttachmentTitle,
+.uiLinkButton.comment_link input,
+.uiOverlayContent a,
+.uiStreamStory a,
+[id=SettingsPage_Content] a {
+    color: #D9DFE8!important;
+}
+
+._-shadow,
+._2o49,
+._2w3>._30f,
+._4-u2,
+._4hp,
+._4lh ._1xz,
+._4lh .fbTimelineShowOlderSections,
+._4lh .fbTimelineTimePeriodSuppressed .forceLoad,
+._4un0,
+._5084,
+._5eh4,
+._5l9_ .better_fb_cp,
+._5pb0,
+._5sem .timelineUnitContainer,
+._5va1,
+._guu,
+._kj3,
+._z6j,
+.appCenterCategoryBanner,
+.appCenterInvite,
+.appCenterSmallCuratedSlot,
+.app_center #contentCol .apps_list,
+.dark-fb--dfb-box,
+.fbTimelineTopSectionBase,
+.fbTimelineUnit,
+.shareRedesign,
+.uiMediaThumb {
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, .3)!important
+}
+
+body:not(.plugin) {
+    background: #252423!important
+}
+
+.dark-fb--common-border-bg {
+    background-color: #464544!important
+}
+
+#admin_panel a:hover,
+#fbCalendarWrapper a:hover,
+#pagelet_timeline_medley_notes .note a:hover,
+#rightCol a:hover,
+#webMessengerRecentMessages a:hover,
+.GM_options_wrapper_inner a:hover,
+.UIStandardFrame_Container a:hover,
+._1yv ._t a:hover,
+._2o49 a:hover,
+._2w3>._30f a:hover,
+._4-u2 a:hover,
+._4un0 .title:hover,
+._4yj a:hover,
+._538q a:hover,
+._53ii .uiContextualLayerLeft ._53ij a:hover,
+._59s7 div._4-i2 a:hover,
+._5eha:hover,
+._5sem .timelineUnitContainer a:hover,
+._5srp a:hover,
+._5uch a:hover,
+._698 a:hover,
+._7lu a:hover,
+._9lb:hover,
+.__tw a:hover,
+._guu a:hover,
+._kj3 a:hover,
+._z6j a:hover,
+.appCenterCategoryBanner a:hover,
+.appCenterInvite a:hover,
+.appCenterSmallCuratedSlot a:hover,
+.app_center #contentCol .apps_list a:hover,
+.dark-fb--dfb-box a:hover,
+.dark-fb--page-notifications a:hover,
+.fbFeedbackContent a:hover,
+.fbNubFlyoutAttachments a:hover,
+.fbNubFlyoutBody a:hover,
+.fbNubFlyoutFooter a:hover,
+.fbNubFlyoutHeader a:hover,
+.fbPhotoSnowlift .rhc a:hover,
+.fbSettingsList .fbSettingsListItemEdit:hover,
+.fbSettingsList .fbSettingsListItemSaved:hover,
+.fbTimelineSection a:hover,
+.fbTimelineTopSection a:hover,
+.fbTimelineUnit a:hover,
+.fbxWelcomeBox a:hover,
+.jewelFlyout a:hover,
+.megaphone_box a:hover,
+.permalinkBody #contentArea a:hover,
+.permalinkBody #rightCol a:hover,
+.uiAttachmentTitle:hover,
+.uiLinkButton.comment_link input:hover,
+.uiOverlayContent a:hover,
+.uiStreamStory a:hover,
+[id=SettingsPage_Content] a:hover {
+    color: #c2d3eb!important
+}
+
+#pageFooter a:hover,
+.dark-fb--common-muted-link:hover,
+.uiHeader a:hover {
+    color: #a4a09f!important
+}
+
+#mainContainer {
+    border-color: #464544!important
+}
+
+#contentCol,
+#fbCalendarWrapper {
+    background: #353433!important;
+    border-color: #464544!important
+}
+
+._5vb_ #contentCol {
+    background: #252423!important
+}
+
+#contentCurve {
+    border-color: #464544!important
+}
+
+.hasLeftCol #pageFooter {
+    background: #252423!important
+}
+
+#fbCalendarWrapper .uiHeaderSection,
+#fbCalendarWrapper .uiSideHeader,
+#rightCol .uiHeader,
+.dark-fb--common-side-header {
+    background: #683433!important;
+    border-color: #8a5655!important;
+    color: #efdede!important
+}
+
+#fbCalendarWrapper .uiHeaderSection a,
+#fbCalendarWrapper .uiHeaderSection a *,
+#fbCalendarWrapper .uiSideHeader a,
+#fbCalendarWrapper .uiSideHeader a *,
+#rightCol .uiHeader a,
+#rightCol .uiHeader a *,
+.dark-fb--common-side-header a,
+.dark-fb--common-side-header a * {
+    color: #debdbc!important
+}
+
+#webMessengerRecentMessages .uiBoxGray,
+#webMessengerRecentMessages .uiBoxYellow,
+.uiBoxRed {
+    background: #683433!important;
+    border-color: #8a5655!important;
+    color: #efdede!important
+}
+
+#inviteTypeahead,
+.UFIList .uiTypeahead,
+.composerTypeahead,
+.dark-fb--typeahead,
+.fbChatTypeahead,
+.friendListAddTypeahead,
+.uiInlineTokenizer,
+.uiSearchInput,
+.uiTokenizer {
+    background: #252423!important;
+    border-color: #464544!important
+}
+
+.UFIAddCommentInput {
+    background: #1D1D1D!important;
+    border: 1px solid #525252!important;
+}
+
+._2pt textarea,
+.inputtext,
+.textInput {
+    background-color: #090807!important;
+}
+
+.uiTypeahead .textInput {
+    background-color: #1D1D1D!important;
+}
+
+.uiMentionsInput {
+    background: #090807!important
+}
+
+.uiMentionsInput .mentionsTypeahead,
+.uiMentionsInput .mentionsTypeahead .mentionsTextarea {
+    background: #1D1D1D!important;
+}
+
+._5u8u,
+.uiMentionsInput .highlighter b {
+    background: #3d3c4c!important;
+    box-shadow: 0 0 0 1px #66649b, 0 1px 4px #000!important
+}
+
+.uiToken {
+    background: rgb(44, 44, 44)!important;
+    border-color: #525252!important;
+}
+
+.UFIAddCommentInput>.wrap,
+.UFIList .uiTypeahead>.wrap,
+.dark-fb--typeahead>.wrap,
+.fbChatTypeahead>.wrap,
+.friendListAddTypeahead>.wrap {
+    border-color: #464544!important
+}
+
+.uiSearchInput span {
+    border: 0!important
+}
+
+.uiSearchInput button {
+    background-color: #212121!important;
+}
+
+.highlight[style] {
+    background: #353466!important;
+    border-color: #353466!important
+}
+
+._2o49,
+._2w3>._30f,
+._4-u2,
+._5sem .timelineUnitContainer,
+._guu,
+._kj3,
+._z6j,
+.appCenterCategoryBanner,
+.appCenterInvite,
+.appCenterSmallCuratedSlot,
+.app_center #contentCol .apps_list,
+.dark-fb--dfb-box,
+.fbTimelineUnit {
+    background: #353433!important;
+    border: 1px solid #464544!important;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+._3cz,
+._5qqf,
+._70l,
+._g3h,
+.dark-fb--app-center-banner--title,
+.dark-fb--app-center-box--title,
+.dark-fb--app-center-requests--box--title {
+    background: #2B2B2B!important;
+    border-color: #464544!important;
+}
+
+#blueBar,
+._4f7n,
+._hdd {
+    background: #2C2C2C !important;
+    border-color: #2C2C2C!important;
+}
+
+._4f7n:after,
+._hdd:after,
+.hasSmurfbar #blueBarHolder #blueBar:after {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, .12), rgba(0, 0, 0, 0))!important;
+    border-top: 1px solid #454443!important
+}
+
+._585-,
+.__wu #headNav #navSearch.roundedBox {
+    background: #353433 linear-gradient(to bottom, #090807, #353433)!important;
+    border-radius: 2px!important;
+    box-shadow: inset 0 0 0 1px #464544, inset 0 1px 3px 2px #000, 0 1px 2px #000!important
+}
+
+.__wu #headNav #navSearch.roundedBox {
+    padding-top: 0!important;
+    position: relative!important;
+    top: 9px!important
+}
+
+.__wu #headNav #navSearch.roundedBox * {
+    background: transparent!important
+}
+
+.__wu .roundedBox .smurfbarBottomBorder,
+.__wu .roundedBox .smurfbarTopBorder {
+    display: none!important
+}
+
+.__wu #headNav #navSearch.roundedBox .uiTypeahead,
+.__wu #navSearch.roundedBox .uiSearchInput .inputtext {
+    height: 24px!important
+}
+
+._585- ._5861,
+._5861 ._586f,
+._5861 ._586i,
+.__wu .uiSearchInput.textInput#u_0_h {
+    background: transparent!important
+}
+
+._50c9 {
+    background: #090807!important;
+    box-shadow: inset 0 0 0 1px #464544, 0 2px 16px rgba(0, 0, 0, .64)!important
+}
+
+._202.selected {
+    background: #353466!important
+}
+
+._1ht9,
+.fbChatSidebar {
+    background: #353433!important;
+    box-shadow: none!important;
+    border-color: #464544!important
+}
+
+.fbChatTypeaheadView li.selected a,
+ul.fbChatOrderedList li a:hover {
+    background: #090807!important
+}
+
+._554p {
+    color: #8b8685!important;
+    background: #353433!important
+}
+
+._554r,
+.fbSidebarGripper {
+    border-color: #464544!important
+}
+
+.fbSidebarGripper div {
+    background: #353433!important;
+    border-color: #2d2c2b!important
+}
+
+.fbSidebarGripper .gripNuclear {
+    background: #3d3c3b!important;
+    border-color: #2d2c2b!important
+}
+
+.fbChatSidebarMessage {
+    background: #353433!important;
+    border-color: #464544!important;
+    box-shadow: inset 0 1px #2d2c2b!important
+}
+
+._4oes .button,
+.fbChatSidebar .fbChatTypeahead .textInput {
+    box-shadow: inset 0 1px #464544!important;
+    border-color: #464544!important
+}
+
+._4oes {
+    border-color: transparent!important;
+    background: #454443!important
+}
+
+._4oes .button:hover,
+div._5qth .uiCloseButton:hover {
+    background-color: #353466!important
+}
+
+.fbNubButton {
+    background: #1d1c1c!important;
+    border: 1px solid #464544!important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .05)!important
+}
+
+._5q5b .fbNubButton:after,
+._5q5b .fbNubButton:before {
+    display: none!important
+}
+
+.fbNubFlyout {
+    box-shadow: 0 1px 12px rgba(0, 0, 0, .25)!important
+}
+
+.fbNubFlyoutAttachments,
+.fbNubFlyoutBody,
+.fbNubFlyoutFooter,
+.fbNubFlyoutHeader {
+    background: #353433!important;
+    border-color: #686564!important
+}
+
+.fbNubFlyoutFooter {
+    background: #1D1D1D!important;
+}
+
+.fbNubFlyoutAttachments .chatAttachmentShelf {
+    background: #252423!important;
+    border-color: #464544!important
+}
+
+._2qh {
+    border: 0!important
+}
+
+.fbNubFlyoutTitlebar {
+    background: #1D1D1D!important;
+    border-color: #525252!important;
+}
+
+._51jt .unreadCount {
+    background-color: #353466!important;
+    box-shadow: inset 0 0 1px #464577!important;
+    color: #7574a6!important;
+}
+
+.fbNubFlyoutFooter textarea,
+.uiMentionsInput,
+.uiMentionsInput .mentionsTypeahead,
+.uiMentionsInput .mentionsTypeahead,
+.uiMentionsInput .mentionsTypeahead .mentionsTextarea {
+    background: transparent !important;
+}
+
+._552h {
+    border-color: #464544!important;
+}
+
+._511m,
+._5w-5 {
+    background: linear-gradient(to left, rgba(139, 134, 133, 0) 0, rgba(139, 134, 133, .75) 50%, rgba(139, 134, 133, 0) 100%)!important;
+}
+
+div._511n,
+div._5w-6 {
+    background: #353433!important;
+}
+
+._5w0o {
+    background: #353433!important;
+    color: #8b8685!important;
+}
+
+._5w0o:after {
+    opacity: .2!important;
+}
+
+.uiToggle.emoticonsPanel a {
+    outline: 0!important;
+}
+
+._1nc6:last-of-type ._n4o:last-of-type ._3_om,
+._1nc6:last-of-type ._n4o:last-of-type ._4i_6,
+._1nc6:first-of-type ._n4o:first-of-type ._3_om,
+._1nc6 ._5w1r:before,
+._kso,
+._kso:before {
+    color: #848484 !important;
+    text-shadow: none;
+    border-color: #575655!important;
+    background: #353433 linear-gradient(to bottom, #353433, #212121)!important;
+}
+
+._r38 {
+    border-top: 1px solid #525252;
+}
+
+._50kd ._kso,
+._50kd ._kso:before {
+    background: #353466 linear-gradient(to bottom, #353466, #464577)!important;
+    border-color: #575688!important
+}
+
+._50dw .profileLink,
+._50dw .profileLink .profilePhoto,
+._5ys_,
+._5ys_ img {
+    border-radius: 4px!important
+}
+
+._50dw .profileLink .profilePhoto,
+._5ys_ img {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5)!important
+}
+
+._50dw .profileLink:after,
+._5w1r:after,
+._5w1r:before,
+._5ys_:after,
+._kso:after,
+._kso:before {
+    background: transparent!important;
+    opacity: 0!important
+}
+
+._ksg {
+    background: #353433!important;
+    border-color: #464544!important
+}
+
+._3db,
+ul._281 {
+    background: #090807!important;
+    border-color: #464544!important
+}
+
+._2nb {
+    border-color: #464544!important
+}
+
+.wmMasterView {
+    background: #252423!important
+}
+
+._k- {
+    border-color: #464544!important
+}
+
+._k-:hover {
+    background: #353433!important
+}
+
+._k-._kv {
+    background: #454443!important
+}
+
+._k-._kx {
+    background: #353466!important
+}
+
+.wmMasterView:after {
+    display: none!important
+}
+
+._3j6 {
+    background: #252423!important;
+    background: #252423 linear-gradient(to bottom, #252423 0, #2d2c2b 98%, #464544 98%, #464544 100%)!important;
+    background-size: 100px 61px!important
+}
+
+._3j5 {
+    background: #353433!important
+}
+
+._4yj {
+    border-color: #464544!important
+}
+
+._3b {
+    background: #353433!important;
+    border-color: #464544!important
+}
+
+._2nb ._2n3 {
+    border-color: #464544!important
+}
+
+._2nb ._2n3 .timestamp {
+    background: #353433!important;
+    color: #8b8685!important
+}
+
+.webMessengerMessageGroup {
+    background: #353433!important
+}
+
+.webMessengerMessageGroup[style]:not([style='']) {
+    background: #353466!important;
+    border-color: #464577!important
+}
+
+._1rs {
+    background: #252423!important
+}
+
+._1rs,
+._1rw,
+._2pt,
+._2pu {
+    border-color: #464544!important
+}
+
+._1rw,
+._2pt {
+    background-color: #090807!important
+}
+
+._5srp,
+._5uch,
+.uiStreamStory {
+    border-color: #464544!important;
+    background-color: #353433!important;
+    -webkit-transition: 1s background-color!important;
+    -moz-transition: 1s background-color!important;
+    -o-transition: 1s background-color!important;
+    transition: 1s background-color!important
+}
+
+.uiStreamStory[style^=background-color] {
+    background-color: #4f3433!important
+}
+
+._5pbw,
+._5srp ._66m,
+h5.uiStreamHeadline {
+    font: 14px Helvetica Neue, Helvetica, Arial, Verdana, sans-serif!important
+}
+
+._5pbw .fwb a,
+._5srp ._66m ._706 a,
+h5.uiStreamHeadline .actorName a,
+h5.uiStreamHeadline a.passiveName {
+    color: #bef!important;
+    font-weight: 700!important
+}
+
+._4ks>li,
+._5mxv,
+._5pbv,
+._5pbz,
+._5srp,
+._5uch,
+.uiStreamShareLikePageBox,
+div#pagelet_home_stream {
+    border-color: #464544!important
+}
+
+.selectedStoryIndicator,
+.uiStreamEdgeStoryLine hr {
+    background: #464544!important
+}
+
+.UFIBlingBox,
+.uiBlingBox {
+    border-color: transparent!important
+}
+
+.UFIBlingBox:hover,
+.uiBlingBox:hover {
+    background: #353466!important
+}
+
+._4hq,
+._4lh ._1xz,
+._5084,
+._5eh4,
+._5pcm,
+._5va1,
+._62_,
+._630,
+._631,
+._632,
+.attachmentUnit,
+.shareRedesignBottomBorder,
+.shareRedesignRightBorder,
+.shareRedesignTopBorder,
+.shareSubtext,
+.uiAttachmentNoMedia {
+    border-color: #464544!important
+}
+
+._5pap,
+._5paq,
+._5par,
+._5pas {
+    background: #464544!important
+}
+
+._4hp,
+._4hq ._4hs,
+._4lh ._1xz,
+._4un0,
+._5084,
+._5eh4,
+._5eh8,
+._5pb0,
+._6m2,
+.shareRedesign,
+.shareRedesignContainer,
+.shareRedesignText {
+    background: #2d2c2b!important
+}
+
+._5q81,
+._5rnz {
+    background: #2d2c2b!important;
+    border-color: #464544!important
+}
+
+.uiStreamHeader {
+    background: #464544!important
+}
+
+._5pbe,
+.uiStream .uiStreamHeader .uiStreamHeaderChronologicalForm,
+.uiStreamEdgeStoryLineTx,
+.uiStreamHeaderText {
+    background: #353433!important;
+    color: #8b8685!important
+}
+
+.uiBoxLightblue {
+    background: #252423!important;
+    border: #464544!important
+}
+
+.megaphone_box {
+    background: #090807!important
+}
+
+.megaphone_box,
+.sourceSuggestionMegaphoneContent #source_suggestion_picker {
+    border-color: #464544!important
+}
+
+._2iwq {
+    background-color: #464544!important;
+    background-image: linear-gradient(to right, #464544 0, #535251 20%, #464544 40%, #464544 100%)!important
+}
+
+._2iwq div {
+    background: #353433!important
+}
+
+._3sod {
+    background: #683433!important;
+    border-color: #8a4544!important
+}
+
+._3sod:hover {
+    background: #723938!important
+}
+
+._3sod ._3soi {
+    color: #efdede!important
+}
+
+._3sod ._3som {
+    color: #debdbc!important
+}
+
+._50d1 {
+    box-shadow: 0 0 12px #683433!important
+}
+
+._53ii .uiContextualLayerBelowRight ._53ij {
+    background: #683433!important;
+    box-shadow: inset 0 0 2px #8a4544, 0 1px 8px rgba(0, 0, 0, .5)!important
+}
+
+._53ii .uiContextualLayerBelowRight ._53ij:hover {
+    background: #723938!important
+}
+
+._4h7j {
+    background-color: #212121;
+}
+
+._2ezy,
+._50nd ._50nc,
+._50ne ._50nc {
+    color: #848484;
+}
+
+._9jo li._54ne {
+    background-color: #2B2B2B;
+}
+
+._70b,
+._2246,
+._1nme {
+    background: #212121!important;
+}
+
+._alf:hover {
+    background-color: #2B2B2B!important;
+}
+
+._42fu._42fu._42fu,
+._59pe:focus,
+._59pe:hover,
+.uiButton {
+    background: rgba(0, 0, 0, 0)!important;
+    border-color: rgba(0, 0, 0, 0)!important;
+}
+
+._42fu._42fu._42fu,
+._4jy0,
+._59pe:focus,
+._59pe:hover,
+.uiButton,
+.uiButton input,
+.uiButtonText,
+a._4jy0 {
+    color: #e9e8e7!important;
+    text-shadow: none!important
+}
+
+._42fu._42fu._42fu._42g- {
+    color: #d7fc70!important
+}
+
+.UFIList,
+.UFIReplyList,
+.UFIRow {
+    background: #252423!important;
+}
+
+.UFIRow {
+    border-color: #525252!important;
+}
+
+.UFIReplyList .UFIRow {
+    background: #2C2C2C!important;
+    border-color: #525252!important;
+}
+
+.UFIReplyList .UFIRow.UFIPartialBorder .UFICommentContent {
+    border-color: #3d3c4c!important
+}
+
+.UFIFeaturedComment .UFICommentActorName {
+    background: #2c2b3b!important;
+    border-color: #484757!important
+}
+
+.UFIRow.UFIUnseenItem {
+    background: #3d3c5d!important;
+    border-color: #66649b!important
+}
+
+.UFIRow.UFIUnseenItem:after {
+    background: #66649b!important
+}
+
+.uiMediaThumb {
+    background: #2d2c2b!important;
+    border-color: #464544!important
+}
+
+.UFIRow.UFIFirstCommentComponent,
+._6kb ._6mv .UFIRow.UFILikeSentence {
+    border-color: #484757!important
+}
+
+._55d0 {
+    background-color: #252423!important
+}
+
+._1dsp,
+._1dsq,
+._2yg {
+    border-color: #686564!important
+}
+
+._1dsp {
+    background: #454443!important;
+    border-color: #464544!important
+}
+
+._1dsq:hover {
+    background-color: #353466!important
+}
+
+._5t_y ._1dsl {
+    border: 0!important
+}
+
+._5t_y ._1dsl li:after,
+._5t_y ._9lb:hover {
+    background: #464544!important
+}
+
+._4_4e,
+._50zb {
+    border-color: #464544!important
+}
+
+.UIShareStage a.inline_edit:hover {
+    background: #353466!important
+}
+
+._53ij {
+    border-color: #525252!important;
+    background: #212121!important;
+}
+
+._53ij .uiBoxGray {
+    background: #252423!important;
+    border-color: #464544!important
+}
+
+._7lu .fwb.fsl a {
+    color: #bef!important
+}
+
+.uiMenu {
+    background: #212121!important;
+}
+
+#bfb_options_button_li ul,
+#pageNav ul.navigation,
+#userNavigation,
+._54nf,
+._569t ._54ng,
+.bfb_hide_menu,
+.uiTypeaheadView ul {
+    background: #090807!important;
+    border: 1px solid #464544!important
+}
+
+#bfb_options_button_li ul,
+#pageNav ul.navigation,
+#userNavigation,
+._54nf,
+._569t ._54ng,
+.bfb_hide_menu,
+.uiTypeaheadView ul {
+    background: #212121!important;
+    border: 1px solid #525252!important;
+}
+
+#bfb_options_button_li ul a:hover,
+#pageNav ul.navigation .navSubmenu:hover,
+#userNavigation .navSubmenu:hover,
+._558b ._54nc:hover,
+._558b ._54ne ._54nc,
+._569t ._54nc:hover,
+.bfb_hide_menu div.bfb_item:hover,
+.uiMenuItem a:hover,
+.uiTypeaheadView li.selected,
+.uiTypeaheadView li:hover {
+    border-color: #525252!important;
+    background-color: #2B2B2B!important;
+}
+
+.uiMenuItem a:active,
+.uiMenuItem a:focus {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+._558b ._54ak,
+._569t ._54ak,
+.uiMenuSeparator {
+    border-color: #464544!important
+}
+
+#pageNav .menuDivider,
+#userNavigation .menuDivider {
+    background: #464544!important
+}
+
+._5ugf,
+.navSubmenu .uiSideNavCount {
+    background-color: #353466!important;
+    box-shadow: inset 0 0 1px #464577!important;
+    border-radius: 5px!important;
+    color: #7574a6!important
+}
+
+.ego_unit,
+.rhcFooterBorder {
+    border-color: #464544!important
+}
+
+#rightCol ._5rzs .uiHeader {
+    background: transparent!important
+}
+
+#rightCol ._5rzs .uiHeader .uiHeaderTitle,
+#rightCol ._5rzs .uiHeader a.uiHeaderActions {
+    color: #8b8685!important
+}
+
+.fbRemindersStory:hover {
+    background: #454443!important
+}
+
+#pagelet_ego_pane .ego_unit {
+    opacity: .6!important
+}
+
+._5fxj ._5fxk,
+._5vwg ._5vwh {
+    color: #c4bdbc!important
+}
+
+._5fxj ._5fxl,
+._5fxm ._5fxn,
+._5vwj ._5vwk {
+    color: #8b8685!important
+}
+
+#leftCol {
+    opacity: .6!important
+}
+
+._55y4 .homeSideNav,
+.uiSideNav {
+    background: transparent!important
+}
+
+.sideNavItem .item,
+.sideNavItem a._5afe {
+    border-color: transparent!important;
+    color: #cfc7c6!important
+}
+
+.sideNavItem .item:hover,
+.sideNavItem a._5afe:hover {
+    background-color: #2d2c2b!important
+}
+
+.sideNavItem .item:focus,
+.sideNavItem a._5afe:focus {
+    background-color: #31302f!important
+}
+
+.sideNavItem .item:active,
+.sideNavItem a._5afe:active {
+    color: #716d6c!important;
+    background: transparent!important
+}
+
+.sideNavItem.selectedItem,
+.sideNavItem.selectedItem .item {
+    background: #403f3e!important;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .33)!important
+}
+
+.sideNavItem .count,
+.uiSideNavCount {
+    background-color: #403f93!important;
+    box-shadow: inset 0 0 1px #5c5baf!important;
+    border-radius: 5px!important
+}
+
+.countValue,
+.maxCountIndicator,
+.sideNavItem .count,
+.uiSideNavCount {
+    color: #aaa9fd!important
+}
+
+.uiSideNav .loading .item,
+.uiSideNav .sideNavItem .loading .subitem {
+    background: #353433!important
+}
+
+._3479 ._2jq5 {
+    border-color: rgba(255, 255, 255, .1)!important
+}
+
+._3479 ._2jq5:hover {
+    background-color: rgba(255, 255, 255, .1)!important
+}
+
+.fbPhotoSnowlift {
+    background: rgba(53, 52, 51, .75)!important
+}
+
+.fbPhotoSnowliftContainer {
+    box-shadow: 0 1px 15px rgba(139, 134, 133, .3), 0 0 1px rgba(139, 134, 133, .7)!important
+}
+
+.fbPhotoSnowlift .rhc {
+    background: #090807!important
+}
+
+#contentCol .fbTimelineScrubber,
+.fbTimelineCapsule,
+.fbTimelineTimePeriod,
+.timelineLayout #contentCol {
+    background: transparent!important
+}
+
+.timelineLayout ._5pr2 .fbChatOrderedList ._bxd ._42fz a:hover,
+.timelineLayout ._5pr2 .fbChatOrderedList ._bxd ._42fz a.selected,
+.fbCalendar ._5pr2 .fbChatOrderedList ._bxd ._42fz a:hover,
+._1t4w ._5pr2 .fbChatOrderedList ._bxd ._42fz a:hover,
+.fbCalendar ._5pr2 .fbChatOrderedList ._bxd ._42fz a.selected,
+._1t4w ._5pr2 .fbChatOrderedList ._bxd ._42fz a.selected,
+._5vb_ ._5pr2 .fbChatOrderedList ._bxd ._42fz a:hover,
+._5vb_ ._5pr2 .fbChatOrderedList ._bxd ._42fz a.selected {
+    background-color: #212121!important;
+    box-shadow: 1px 0 0 #525252 inset!important;
+}
+
+#contentCol .fbTimelineScrubber li a {
+    border-color: #363534!important;
+    color: #8b8685!important
+}
+
+#contentCol .fbTimelineScrubber li.selected a {
+    border-color: #686564!important
+}
+
+._1ln2 .uiList>li,
+._4jul ._ph5,
+._55-w,
+._5gf9 {
+    border-color: #464544!important
+}
+
+.spinePointer {
+    visibility: hidden!important
+}
+
+.fbTimelineContentHeader h3.uiHeaderTitle,
+.fbTimelineInlineSectionHeader h3.uiHeaderTitle {
+    background: #454443!important
+}
+
+.pagesTimelineButtonPagelet {
+    background: #252423!important;
+    border-color: #464544!important
+}
+
+._6dh ._5142 {
+    background: #353433!important
+}
+
+._6dh ._1dsl {
+    border-bottom: 0!important
+}
+
+._2w3>._30f,
+._53a7._5pst._5psw,
+._53a7._5psw,
+.fbTimelineSection:not(.fbTimelineSectionTransparent) {
+    background: #353433!important
+}
+
+._2w3>._30f,
+._4q0 .fbTimelineSection,
+._4q0>._4_g5,
+._538q,
+._698,
+.fbTimelineSection:not(.fbTimelineSectionTransparent) {
+    border-color: #464544!important
+}
+
+._5e37 .profileInfoTable hr,
+.pagesAboutDivider {
+    background: #464544!important
+}
+
+.photoUnit .photoWrap.letterboxedImage,
+.timelineUnitContainer .videoUnit {
+    background: #353433!important;
+    border-color: #353433!important
+}
+
+.inlineFriendInviterList li,
+.nonAdminInviteContainer .uiScrollableAreaContent {
+    border-color: #464544!important
+}
+
+.inlineFriendInviterList li:hover {
+    background-color: #252423!important
+}
+
+.onlyMeBorder {
+    background-size: 32px 32px!important;
+    background-image: linear-gradient(135deg, #424140 0, #424140 25%, #282726 25%, #282726 50%, #424140 50%, #424140 75%, #282726 75%, #282726 100%)!important
+}
+
+._5otg {
+    background: #2B2B2B!important;
+}
+
+._5otg,
+._5otg:after,
+._5vx4 ._45hd,
+._5vx4 ._5vwz {
+    border-color: #464544!important
+}
+
+._5vx4 li:hover,
+._5vx7 ._45hd:hover {
+    background: #353433!important
+}
+
+._5vx4._5vx6 ._5vwy ._13xf {
+    background: #464544!important
+}
+
+._6-6,
+._6_7 {
+    border-color: #464544!important
+}
+
+._6-6:hover {
+    background: #090807!important
+}
+
+._6-6._6-7 {
+    background: #252423!important;
+    box-shadow: 0 5px 0 #252423, inset 0 1px #464544!important
+}
+
+._6-6 ._513x {
+    opacity: 0!important
+}
+
+.timelineRecentActivityStory:hover {
+    background: #353433!important
+}
+
+._5vf ._5vg {
+    border-color: #464544!important
+}
+
+._5vf .uiHeaderActions,
+._5vf .uiHeaderTitle {
+    background: #252423!important;
+    color: #8b8685!important;
+    text-shadow: none!important
+}
+
+._5vf .uiHeaderActions a {
+    text-shadow: none!important
+}
+
+._4lh .fbTimelineShowOlderSections,
+._4lh .fbTimelineTimePeriodSuppressed .forceLoad {
+    background: #353433!important;
+    border-color: #464544!important
+}
+
+.fbCalendar .fbCalendarHeader,
+.fbTimelineStickyHeader .back {
+    background: #2C2C2C!important;
+    border-color: #525252!important;
+}
+
+.fbTimelineTopSection {
+    background: transparent!important;
+    border-color: #464544!important
+}
+
+.fbTimelineTopSectionBase {
+    background: #353433!important
+}
+
+.topSectionBottomBorder {
+    background: transparent!important;
+    box-shadow: inset 1px -1px 0 #464544, inset -1px -1px 0 #464544!important
+}
+
+.fbTimelineNavigationWrapper .frame {
+    border-color: #464544!important
+}
+
+.fbTimelineNavigationWrapper .detail {
+    background-color: #252423!important
+}
+
+.fbTimelineNavigationWrapper .frame .mat {
+    border-color: #090807!important
+}
+
+.fbTimelineMoreButton .fbTimelineRibbon {
+    border-color: #464544!important;
+    background-color: #090807!important
+}
+
+.fbTimelineUFI,
+.fbTimelineUnit .uiMorePagerLight .uiMorePagerPrimary,
+.uiBoxWhite {
+    background: #353433!important
+}
+
+._1_m,
+.bottomborder,
+.fbPageFriendSummarySection.needsBorder,
+.fbTimelineUnit .uiMorePagerLight .uiMorePagerPrimary,
+.pageFriendSummaryContainer .header,
+.timelinePageLikedPagesLabel,
+.timelinePageMostRecentLabel {
+    border-color: #464544!important
+}
+
+._2d11,
+._2d12,
+.fbTimelineCapsule .bottomBorder,
+.fbTimelineCapsule .topBorder {
+    background: transparent!important
+}
+
+.__jh {
+    background: #353433!important;
+    border-color: #464544!important
+}
+
+._4lh .timelineReportContainer,
+.fbTimelineCapsule .timelineUnitContainer {
+    background: transparent!important;
+    border: 0!important
+}
+
+._6kb,
+.fbTimelineFeedbackActions,
+.timelineUnitContainer .UFIList {
+    background: #3d3c4c!important;
+    border-color: #464544!important
+}
+
+.timelineUnitContainer .UFIRow {
+    border-color: #454454!important
+}
+
+._5sem .timelineUnitContainer .UFIContainer {
+    background: #454454!important
+}
+
+.uiScaledImageCentered {
+    background-color: #353433!important
+}
+
+._1zw4 {
+    background-color: #353433!important;
+    border: 0!important
+}
+
+._1zw4 ._1zw6,
+._5bkm {
+    background-color: #353433!important
+}
+
+._1zw4 ._1zw6:hover,
+._5bkm:hover {
+    background-color: #252423!important
+}
+
+.note .uiBoxWhite {
+    background: #353433!important;
+    border-color: #464544!important
+}
+
+._4lh ._2-d1 {
+    background: transparent!important
+}
+
+#admin_panel {
+    background: #353433!important
+}
+
+#admin_panel .uiHeaderSection {
+    background: #683433!important;
+    border-color: #8a5655!important
+}
+
+#admin_panel,
+#admin_panel .AdminTipContent,
+#admin_panel .uiBoxWhite,
+.adminPanelBorderRight,
+.adminPanelContent,
+.adminPanelContentFanAcq,
+.adminPanelContentTall,
+.adminPanelList li {
+    border-color: #464544!important
+}
+
+#admin_panel .uiDataTable th {
+    background: #090807!important;
+    border-color: #464544!important
+}
+
+#admin_panel .uiDataTable th span.columnLabel {
+    color: #8b8685!important
+}
+
+#admin_panel .uiDataTable td {
+    border-color: #464544!important
+}
+
+#admin_panel .uiDataTable .odd td {
+    background: #252423!important
+}
+
+#admin_panel .uiDataTable ._59ip td {
+    background: #353466!important
+}
+
+#admin_panel ._55o9,
+.groupsJumpBarTop {
+    background: #090807!important;
+    border-color: #464544!important
+}
+
+.groupsJumpBarTop,
+.groupsJumpBarTop .groupsCleanLink,
+.groupsJumpBarTop .groupsCleanLinkBorder {
+    border-color: #464544!important
+}
+
+._3v07 .groupsJumpBarTop .groupsCleanLinkBorder:after {
+    background: #464544!important
+}
+
+.groupsJumpBarTop .groupsCleanLinksBorder,
+.groupsJumpBarTop .groupsCleanLinksSelected,
+.groupsJumpBarTop .groupsCleanLinksSelected .groupsJumpTitle {
+    background: #353433!important
+}
+
+.groupsJumpActions {
+    border-color: #464544!important
+}
+
+.groupsJumpActions .uiButton {
+    border-color: #090807!important
+}
+
+.groupsSkyContentHeader .uiBoxWhite,
+.groupsSkyContentWideHeader .uiBoxWhite {
+    background: #353433!important;
+    border-color: #353433!important
+}
+
+._53ii .uiContextualLayerLeft ._53ij,
+.__tw,
+.jewelFlyout {
+    background-color: #353433!important;
+    border: 1px solid #686564!important
+}
+
+._53ii .uiContextualLayerLeft ._53ij .uiHeader,
+._8-b ._26y1,
+.jewelHeader {
+    border-color: #686564!important;
+    background: #212121!important;
+}
+
+#fbRequestsJewel #fbRequestsFlyout .hasPYMK,
+._33c,
+.messagesContent {
+    border-color: #464544!important
+}
+
+._33e:focus,
+.messagesContent:focus {
+    background-color: #302f2e!important
+}
+
+._33e:hover,
+._33c:hover ._33e,
+.messagesContent:hover {
+    background-color: #1b1a1a!important
+}
+
+._4af ._33e,
+.jewelItemNew,
+.__tw li.jewelItemNew,
+.jewelItemNew ._33e,
+.jewelItemNew .messagesContent {
+    background-color: #212121!important;
+    border-color: #525252;
+}
+
+._4af ._33e:focus,
+._4af ._33e:hover,
+.jewelItemNew .messagesContent:focus,
+.jewelItemNew .messagesContent:hover,
+.jewelItemNew:focus,
+.jewelItemNew:hover {
+    background-color: #212121!important;
+}
+
+._26y3 ._5cw0,
+._26y3 ._5cw1,
+.jewelFooter a {
+    background: #2B2B2B!important;
+    color: #efdede!important;
+    border-color: #525252!important;
+}
+
+#fbRequestsList .uiScrollableArea.contentAfter {
+    border-color: #8a5655!important
+}
+
+.fbFeedTickerStory {
+    background-color: #353433!important;
+    border-top-color: rgba(70, 69, 68, .5)!important;
+    border-bottom-color: #353433!important;
+    box-shadow: none!important
+}
+
+.fbFeedTicker .tickerStoryActive.tickerStoryActive.tickerStoryActive.tickerStoryActive,
+.fbFeedTicker .tickerStoryClickable.tickerStoryClickable.tickerStoryClickable.tickerStoryClickable:hover {
+    background-color: #090807!important;
+    border-color: #464544!important
+}
+
+._5pr2.fbChatSidebar .fbFeedTickerStory .fbFeedTickerBorder,
+.home_right_column .fbFeedTicker {
+    border-color: #464544!important
+}
+
+.tickerToggleWrapper {
+    background: #454443!important;
+    border-color: #252423!important
+}
+
+.tickerLineToggle {
+    background: #353433!important
+}
+
+.uiOverlayContent {
+    border-color: #464544!important;
+    background: #252423!important
+}
+
+.fbFlyoutDialog .photoWrapper,
+.fbFlyoutDialog .tickerFullPhoto,
+.fbFlyoutDialog .uiMediaThumb i {
+    background-color: #090807!important;
+    border-color: #464544!important
+}
+
+.fbFlyoutDialog .tickerDialogFooter {
+    background: #3d3c4c!important;
+    border-color: #66649b!important
+}
+
+.bfb_tabs {
+    border-bottom: 1px solid #464544!important;
+    margin-left: -18px!important;
+    padding-left: 18px!important
+}
+
+.bfb_tab {
+    background: #252423!important;
+    border-color: #464544!important;
+    margin-bottom: -1px!important;
+    color: #8b8685!important
+}
+
+.bfb_tab.bfb_tab_selected,
+.bfb_tab.bfb_tab_selected:hover {
+    background: #353433!important;
+    border-color: #686564!important;
+    border-bottom: 1px solid #353433!important;
+    color: #e9e8e7!important
+}
+
+.better_fb_cp {
+    background-color: #353433!important;
+    border-color: #353433!important
+}
+
+.better_fb_cp .sfx_cp_version {
+    top: 15px!important;
+    left: 9px!important
+}
+
+._5l9_ .better_fb_cp {
+    border: 1px solid #464544!important;
+    border-radius: 3px!important;
+    margin-bottom: 10px!important
+}
+
+.GM_options_wrapper_inner {
+    background-color: #252423!important;
+    border-color: #686564!important
+}
+
+.GM_options_header {
+    background-color: #252423!important;
+    color: #e9e8e7!important
+}
+
+#bfb_option_container .content,
+#bfb_option_container .option {
+    background: #353433!important;
+    border-color: #464544!important
+}
+
+#bfb_option_container .tab_list .bfb_tab_search,
+#bfb_option_container .tab_list .bfb_tab_selector {
+    background-color: #252423!important;
+    border-color: #464544!important
+}
+
+#bfb_option_container .tab_list .bfb_tab_selected {
+    background-color: #353433!important
+}
+
+.uiHeaderTopBorder.uiHeaderNav,
+ul.bfb_uiSideNav {
+    border-color: #464544!important
+}
+
+._1yv,
+._59s7,
+.uiLayerPage .uiOverlayContent {
+    box-shadow: 0 1px 15px rgba(139, 134, 133, .3), 0 0 1px rgba(139, 134, 133, .7)!important
+}
+
+._3qw,
+._4-hy {
+    background: rgba(53, 52, 51, .75)!important
+}
+
+._1yw,
+._59s7 ._4-i0,
+.shareOverlay .overlayTitle {
+    background: #2B2B2B!important;
+    border-color: #525252!important;
+    color: #848484!important;
+    text-shadow: 0 1px rgba(0, 0, 0, .4)!important;
+}
+
+._4-i0 ._52c9 {
+    color: #848484;
+}
+
+._50f9 {
+    color: #848484;
+}
+
+._4pbe,
+._4pbf {
+    border-bottom: 1px solid #525252;
+}
+
+._4pbd {
+    border-left: 1px solid #525252;
+}
+
+._1yv ._t,
+._59s7 div._4-i2 {
+    background: #353433!important
+}
+
+._1yv .uiBoxGray,
+._59s7 ._5a8u {
+    background: rgba(0, 0, 0, 0)!important;
+    border-top: 1px solid #525252;
+}
+
+._5a8u ._59jt,
+._5a8u .uiBoxGray,
+._b--,
+._b_0,
+.fbConnectWidgetFooter .fbFooterBorder,
+.fbFeedbackContent .composer,
+.fbFeedbackContent .fbFeedbackPost {
+    border-color: #464544!important
+}
+
+.fbFeedbackContent .composer {
+    background: #353433!important
+}
+
+#bookmarksSeeAllSection {
+    border-color: #464544!important
+}
+
+._1hin._1hio {
+    background: #353433!important
+}
+
+.permalinkBody #contentCol {
+    background: #252423!important
+}
+
+.permalinkBody #contentArea,
+.permalinkBody #rightCol {
+    border-color: #464544!important;
+    background: #353433!important
+}
+
+.fbStreamPermalinkHeader {
+    border-color: #464544!important
+}
+
+.fbSettingsList a.fbSettingsListLink:hover {
+    background: #252423!important
+}
+
+.fbSettingsEditor.uiBoxGray {
+    background: #090807!important
+}
+
+.fbSettingsEditor .uiBoxGray {
+    background: #090807!important;
+    border-color: #464544!important
+}
+
+.app_center #contentCol {
+    background: transparent!important
+}
+
+.appCenterCategoryBanner .description {
+    background: #353433!important
+}
+
+.appCenterInvite .header,
+.appCenterRequests .appRequests .header {
+    background: #454443!important
+}
+
+._5o3n {
+    background: #252423!important;
+    border-color: #464544!important;
+    box-shadow: none!important
+}
+
+._5o3p {
+    box-shadow: none!important;
+    border-color: #464544!important
+}
+
+._5o3p.selected,
+._5o3p:hover,
+.appsListDescription {
+    background: #353433!important
+}
+
+.appsListDescription,
+.appsListHeader {
+    border-color: #464544!important
+}
+
+body.plugin {
+    background: transparent!important
+}
+
+.fbFeedbackContent {
+    background: #353433!important
+}
+
+.flashUploaderOverlay .footerBox,
+.flashUploaderOverlay .headerBox {
+    background: #090807!important;
+    border-color: #464544!important
+}
+
+.flashUploaderOverlay .uiOverlayContent {
+    background: #353433!important
+}
+
+.editablePhoto .photoWrap {
+    background: #090807!important
+}
+
+.editablePhoto .captionArea,
+.editablePhoto .captionArea .uiMentionsInput,
+.editablePhoto .metadataControls .inner,
+.editablePhoto .metadataControls .inner .metaIcon,
+.editablePhoto .photo {
+    border-color: #464544!important
+}
+
+.editablePhoto .metadataControls .inner {
+    background: #252423!important
+}
+
+.UFICommentPhotoIcon,
+._4q61 ._509w {
+    background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAMCAYAAAC9QufkAAAAAXNSR0IArs4c6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAMpJREFUKM+dkTEKwjAYhV8sgc6F7o7ewNFzeJkKDuJiBRcXj+DoAZxdvEWhSzqVJPwpz0UHY7DiNwXyvuTlDxBBsmKCEEKNbwzDsOEXnHPnN8Fae+QfeO9rRZJxgxDCPcuyi1IqAICILLXWMyTeGFO99tq2nb7WIrKPgx+yMUYDgPe+Jklr7eF5kBqVU42MMSrVMnVz+Zz8miT7vj8BQNM05agsItvUN5LcxtnktLuug3Nunuc5iqK4kbwCWMS5pPwrEwCrf0QR2T0AWRh8pdiNmNAAAAAASUVORK5CYII=) 0 0!important;
+    opacity: .4!important
+}
+
+.UFIPhotoAttachLinkWrapper:hover .UFICommentPhotoIcon,
+._4q61:hover ._509w {
+    opacity: 1!important
+}
+
+.emoticonsPanel .emoteTogglerImg {
+    background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAATZJREFUSMftlDFKQ0EQhr8NQTyApAyvEqvgIXICESxFvIWdpLAW6+ANLAStFI+gSRotIoqllYWgMfhZOMIKL8YXSzMwsP/O7MzszuwPc5mLuqTuqQP1NbSndtSlaefTlOBrwCGwCJwBV2FaBdrAC7CVUjqapfI1P+VcLUrszbAZhVR+lif1Ql34wa8ePk9qo0qCTrx1Ebir7mf2A7Ub6yJ896ok6KknGX5Uhxkeqo8ZPlEHZbFqE3KsZA0FuAv9htWv831guSxQ/ZeX2gDeM7wN1FJK+d6oyg2uYxSJPuwC48w+BjpqK3ALuK2S4Bhoq0VK6Q4YAPcxkgIPwE1KqR8FtIHTKk1uZGNaj72WuhPa+tOYlny05qwfbRpVrAdVLEygihGwORNVTCC7N/VZvfwt2c3lH8gHvF40/sm5IbAAAAAASUVORK5CYII=) 0 1px!important;
+    opacity: .4!important
+}
+
+.emoticonsPanel .emoteTogglerImg:hover {
+    opacity: 1!important
+}
+
+._64b {
+    display: none!important;
+}
+
+._4d3w._u77 ._3t09 {
+    background: #2C2C2C !important;
+}
+
+._4xdg {
+    border-top: 1px solid #525252 !important;
+}
+
+._50mz .titlebar .titlebarLabel {
+    background: #1D1D1D !important;
+}
+
+._1miz {
+    background-color: #2C2C2C !important;
+    border: 1px solid #525252 !important;
+}
+
+._1mi-,
+._1mj0 {
+    background-color: rgba(44, 44, 44, 0.65) !important;
+}
+
+._1mj1 {
+    border-bottom: 2px solid #525252 !important;
+}
+
+._5t_y ._509o,
+._5t_y ._509o:hover {
+    background: #2C2C2C;
+    border-left: 1px solid #525252;
+    border-right: 1px solid #525252;
+    border-top: 1px solid #525252;
+}
+
+.uiTypeaheadView ul {
+    background: #525252!important;
+    border: 1px solid #464544!important;
+}
+
+.uiTypeaheadView li.selected,
+.uiTypeaheadView li:hover {
+    border-color: #525252!important;
+    background-color: #2C2C2C!important;
+}
+
+.fbxPhoto .fbPhotoImageStage .stageContainer {
+    background-color: #252423!important;
+}
+
+._r7d {
+    display: none!important;
+}
+
+._r7b:hover ._r7d {
+    display: block!important;
+}
+
+._g2z {
+    color: #848484!important;
+}
+
+._g2z .shaded {
+    background-color: #2B2B2B!important;
+}
+
+._g2z {
+    border: 1px solid #525252!important;
+}
+
+input {
+    background-color: #2B2B2B!important;
+}
+
+._12-i .pollResultsFacepile .fbQuestionFacepileMoreItem {
+    background-color: #2B2B2B!important;
+    border: 1px solid #525252!important;
+}
+
+.fbQuestionsPollResultsBar {
+    background-color: #353433!important;
+    border-color: #525252!important;
+}
+
+.fbQuestionsPollResultsBar .shaded {
+    background-color: #2B2B2B!important;
+    border: 1px solid #525252!important;
+}
+
+.fbQuestionsPollResultsBar .auxlabel {
+    background-color: #2B2B2B!important;
+}
+
+.fbQuestionsPollResultsBar .label {
+    color: #848484!important;
+}
+
+._3qw ._3ixn {
+    background-color: rgba(33, 33, 33, 0.65)!important;
+}
+
+._43q8._49c8 {
+    background-color: #353433!important;
+}
+
+.uiHeaderSection,
+.uiSideHeader {
+    background-color: rgba(0, 0, 0, 0)!important;
+    border-top: solid 1px #525252!important;
+}
+
+._1lot {
+    background: #353433!important;
+    border: 1px solid #525252!important;
+}
+
+._1lor {
+    background: #2B2B2B!important;
+    border: 1px solid #525252!important;
+}
+
+._57d8 {
+    background-color: #2B2B2B!important;
+}
+
+._g3i {
+    color: #848484!important;
+}
+
+._5vwz ._13xf {
+    background-color: #525252!important;
+}
+
+._5vx4 ._4jq5,
+._5vx4 ._45hd ._45hc {
+    border-left: #525252 solid 1px!important;
+}
+
+._4bjg {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+._558b ._54nc {
+    border: none;
+}
+
+._4bji {
+    color: #848484;
+}
+
+._4t2a {
+    background-color: #353433;
+}
+
+#fbTimelineHeadline .profilePicThumb .img {
+    border-radius: 25%;
+}
+
+#fbTimelineHeadline .profilePic,
+#fbTimelineHeadline .newProfilePic {
+    background-color: rgba(0, 0, 0, 0);
+    border: 4px solid #525252;
+}
+
+#fbTimelineHeadline .profilePicThumb {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+div.uiTypeaheadView li.calltoactionV2 {
+    background: #2C2C2C;
+    border: solid #525252;
+}
+
+.uiTypeaheadView li {
+    background: #353535;
+    border: solid #525252;
+}
+
+.uiTypeaheadView .bucketed .header {
+    background-color: #2C2C2C;
+}
+
+.uiBoxYellow {
+    background-color: #2C2C2C;
+    border: 1px solid #525252;
+}
+
+.fcb {
+    color: #FF3600;
+}
+
+._5p3y .fcg {
+    color: #E44A35;
+}
+
+._1nc7 ._5w1r {
+    color: #FF6C00!important;
+    text-shadow: none!important;
+}
+
+._1nc7 ._5w1r {
+    background-color: #353535;
+    border: 1px solid #525252;
+}
+
+._1sk6 {
+    background-color: rgba(43, 43, 43, 0.65);
+}
+
+._a7s {
+    border-top: 1px solid #525252;
+}
+
+._5vb_ ._5pr2 .fbChatOrderedList ._bxd ._42fz a:hover {
+    background-color: #212121;
+}
+
+._4o-d._2phz._4o-g:hover {
+    background-color: #212121;
+}
+
+._55lt img,
+._s0:only-child {
+    border-radius: 50%;
+}
+
+._8o,
+._8o .img {
+    border-radius: 25%;
+}
+
+._7lt ._7lw {
+    background-color: #525252;
+    border: 3px solid #525252;
+}
+
+._7lt ._7ls {
+    background: rgba(0, 0, 0, .3);
+    box-shadow: none;
+    border-radius: 25%;
+}
+
+._5lus a {
+    position: fixed!important;
+    left: 0!important;
+    top: 0!important;
+    width: 39px!important;
+    height: 50px!important;
+    background-color: #2C2C2C!important;
+    background-image: url(https://pbs.twimg.com/media/COkd75kWUAA1vTZ.png)!important;
+    background-position: -3px 6px!important;
+    background-size: 35px 33px!important;
+    background-repeat: no-repeat!important;
+    margin: 0!important;
+}
+
+body:not(.SettingsPage) #leftCol {
+    padding: 10px !important;
+    position: fixed !important;
+    left: 0 !important;
+    overflow: hidden !important;
+    height: 100vh !important;
+    background: #353433 !important;
+    width: 18px !important;
+    transition: all .5s cubic-bezier(.07, .64, .33, .97) !important;
+}
+
+body:not(.SettingsPage) #leftCol:after {
+    content: "";
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #525252 73%, #525252 100%);
+    height: 100%;
+    width: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10
+}
+
+._5bon:empty {
+    background-size: 12px 11px!important
+}
+
+body:not(.SettingsPage) #leftCol:hover {
+    width: 180px!important;
+    transition: all .3s cubic-bezier(.07, .64, .33, .97)!important
+}
+
+body:not(.SettingsPage) #pagelet_navigation {
+    height: 88vh!important;
+    overflow: scroll!important;
+    width: 203px!important;
+    opacity: .9!important;
+    margin-left: -10px!important
+}
+
+body:not(.SettingsPage) #pagelet_navigation .sideNavItem a {
+    padding-left: 36px!important
+}
+
+body:not(.SettingsPage) #pagelet_welcome_box {
+    width: 183px!important
+}
+
+body:not(.SettingsPage) #pagelet_navigation .navHeader {
+    padding-left: 10px!important
+}
+
+body:not(.SettingsPage) ._55y4 ._bui ._5afe {
+    padding-left: 28px!important
+}
+
+body:not(.SettingsPage) #leftCol:hover ._55y4 ._bui ._5afe .linkWrap {
+    opacity: 1!important
+}
+
+body:not(.SettingsPage) #leftCol .uiHeaderTitle {
+    width: 140px!important
+}
+
+body.Locale_en_US:not(.SettingsPage) ._5o88 {
+    margin-left: 10px!important
+}
+
+._5rzs._5v6d ._5v6e {
+    display: none;
+}
+
+.mtm ._4-u2,
+.mtm ._6m2,
+._5vb_ ._dcs,
+._dcs,
+._3z2,
+._2lhm ._6m2 {
+    background-image: url("http://img15.hostingpics.net/pics/606548triangles.png") !important;
+    background-repeat: repeat !important;
+    background-color: rgba(0, 0, 0, .15) !important;
+    border: 1px solid #111 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, .16) !important;
+    box-shadow: inset 0 0px 3px 0 #111 !important;
+}
+
+.fbNubFlyoutFooter,
+.uiMentionsInput {
+    background-image: url("http://img15.hostingpics.net/pics/606548triangles.png") !important;
+    background-repeat: repeat !important;
+    background-color: rgba(0, 0, 0, .15) !important;
+    border-left: 1px solid #525252 !important;
+    border-right: 1px solid #525252 !important;
+    box-shadow: inset 0 0px 3px 0 #111 !important;
+}
+
+.UFIRow.UFIUnseenItem {
+    background: #252423!important;
+    border-color: #525252!important;
+}
+
+._5vsj.UFIContainer .UFIReplyList ._4oep._2o9m:after,
+._5vsj.UFIContainer .UFIReplyList ._4oep._4204:after {
+    border-left: 2px solid #525252;
+}
+
+.UFIRow.UFIUnseenItem:after {
+    background: #848484!important;
+}
+
+._4-u5 {
+    background-color: #252423;
+}
+
+.uiBoxWhite {
+    background: transparent!important;
+    border: transparent!important;
+}
+
+.uiHeaderPage .uiHeaderTitle {
+    line-height: 20px;
+    min-height: 20px;
+    padding-bottom: 2px;
+    vertical-align: bottom;
+    margin-left: 40%;
+}
+
+.uiInterstitial .interstitialHeader {
+    border-color: transparent;
+}
+
+.inputtext {
+    background-color: #212121 !important;
+    border: none !important;
+}
+
+@-webkit-keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+.sp_cJxRTc7vF6Y.sx_012b90 {
+    background-color: #00A000;
+    border: 2px solid #00A000;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+._57w ._48-k.UFILinkBright::before {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.fbChatTypeaheadView ._55ob,
+.fbChatTypeaheadView ._55ln {
+    background-color: #2B2B2B!important;
+}
+
+.fbChatTypeaheadView li.selected ._55ln,
+.fbChatTypeaheadView ._55ln:hover {
+    background-color: #212121!important;
+}
+
+.uiMenuItem .itemAnchor {
+    border: none!important;
+}
+
+.uiButtonGroup {
+    background-color: #2B2B2B!important;
+    border: 1px solid #525252!important;
+}
+
+._gn4 {
+    background-color: #525252;
+}
+
+._i5q ._gn2 {
+    background-color: #353535;
+}
+
+._i5q ._gn3 {
+    background-color: #737373;
+}
+
+._gn5 {
+    background-color: #525252;
+    border: 2px solid #2B2B2B;
+}
+
+._gn0._gn1 ._gn5 {
+    background: #737373;
+}
+
+._6lh ._6li {
+    background: #252423;
+}
+
+._2l03,
+._4kt>li {
+    border-color: #525252;
+}
+
+._75e,
+._2fb2,
+._4yrd {
+    color: #848484;
+}
+
+._5v4k:after {
+    border: 1px solid #525252;
+}
+
+._502f .rhcFooterWrap,
+._502f .rhcFooterWrap a {
+    text-shadow: 0 1px #848484;
+}
+
+._3d5b {
+    border-left: 5px solid #525252;
+}
+
+._18fs {
+    border-bottom: 1px solid #525252;
+}
+
+._tum {
+    background: #1D1D1D;
+    border: 1px solid #525252;
+}
+
+._tun {
+    background: #353433;
+    border: 1px solid #525252;
+}
+
+._tup {
+    border-left: 1px #525252 solid;
+}
+
+.selected ._tus,
+._tuq:hover ._tus {
+    color: #848484;
+}
+
+.selected ._tuq:before {
+    background-color: #525252;
+}
+
+._5asn {
+    right: 25px;
+}
+
+._4za_ {
+    background: #2B2B2B;
+    border: 1px solid #525252;
+}
+
+.fbPhotosRedesignNavItem {
+    background-color: #2B2B2B;
+}
+
+.fbPhotosRedesignNavItem:hover,
+.fbPhotosRedesignNavSelected.fbPhotosRedesignNavItem:hover {
+    background-color: #1D1D1D;
+}
+
+.fbPhotosRedesignNavSelected.fbPhotosRedesignNavItem {
+    background-color: #1D1D1D;
+}
+
+.fbStarGridAsTimelineUnit .fbStarGrid {
+    background: #353433;
+    border: 1px solid #525252;
+}
+
+.fbStarGrid .uiMediaThumb:before {
+    background: #353433 url(/rsrc.php/v2/y-/r/cRXSacWGljF.png) no-repeat center center;
+}
+
+.fbPhotosRedesignBorderOverlay .uiMediaThumb .uiMediaThumbImg:after,
+.fbPhotosRedesignBorderOverlay .uiVideoLink .uiVideoLinkImg:after {
+    border: 1px solid #525252;
+}
+
+.fbTimelineStarGridSeparator h4,
+.fbTimelinePhotosScroller .async_saving {
+    background: #353433;
+}
+
+.fbTimelineStarGridSeparator,
+.fbTimelinePhotosScroller {
+    background: url(http://i.imgur.com/3WpokVc.png) repeat-y center top;
+}
+
+._3c_:hover ._3sz,
+._3s- ._3sz,
+._33hy ._554b:hover,
+._4o52:hover ._3sz,
+._3c- a {
+    color: #848484;
+}
+
+._58gm ._51xa,
+._4jy0 {
+    background: rgba(43, 43, 43, 0.50);
+    border-color: #525252;
+}
+
+._3y89,
+._9c6,
+._517h {
+    border: 1px solid transparent;
+}
+
+._20h0 {
+    background: #2B2B2B;
+}
+
+._xxv {
+    border-bottom: 1px solid #525252;
+}
+
+._n57 {
+    border-bottom: 1px solid #525252;
+}
+
+._2nob {
+    border-top: 1px solid #525252;
+}
+
+._1lou {
+    border-left: 1px #525252 solid;
+}
+
+._kdk {
+    color: #848484;
+}
+
+._1l46._5nb6,
+._1l46._5nb7 {
+    background: #525252!important;
+}
+
+._5nb7 {
+    height: 3px;
+}
+
+._4-9q {
+    background: #1D1D1D;
+    border: 1px solid #525252;
+}
+
+._27nv {
+    background-color: #353433;
+    border-bottom: 1px solid #525252;
+}
+
+._18s5 {
+    border-bottom: 1px solid #525252;
+}
+
+._8rg {
+    background: #353433;
+}
+
+.openToggler>._5vto,
+.openToggler>._5vto:hover,
+.openToggler>._5vto:focus,
+.openToggler>._5vto:active,
+._4jy1:active,
+._4jy1._42fs {
+    background-color: #2C2C2C;
+    border-color: #525252;
+}
+
+html ._4jy0:focus {
+    box-shadow: 0 0 1px 2px #525252, 0 1px 1px rgba(0, 0, 0, .15);
+}
+
+._517h:active,
+._517h._42fs {
+    border-color: #525252;
+}
+
+._fwt ._fwu {
+    color: #848484;
+}
+
+._5inf {
+    background-color: #525252;
+}
+
+._1z0- {
+    background-color: #252423;
+}
+
+body ._19u- ._3ixn {
+    background-image: -webkit-linear-gradient(to bottom, rgba(53, 53, 53, 0.6) 0%, rgba(33, 33, 33, 0.6) 75%, rgba(43, 43, 43, 0.6) 100%);
+    background-image: linear-gradient(to bottom, rgba(53, 53, 53, 0.6) 0%, rgba(33, 33, 33, 0.6) 75%, rgba(43, 43, 43, 0.6) 100%);
+}
+
+._5u8u,
+.uiMentionsInput .highlighter b {
+    background: #252423!important;
+    box-shadow: 0 0 0 1px #525252!important;
+}
+
+._4-u8 {
+    background-color: #2C2C2C;
+}
+
+._1tm3 {
+    border-left: 1px solid #525252;
+}
+
+._5qtq {
+    border-bottom: 8px solid #353433;
+}
+
+._5qtq::after {
+    border-bottom: 8px solid #525252;
+}
+
+._2l5d:hover {
+    background: #2B2B2B;
+}
+
+._2l5d {
+    border-right: 1px solid #525252;
+}
+
+._5ww7._5ww9 {
+    background-color: #2C2C2C;
+    border-color: #525252;
+}
+
+._5ww7 {
+    color: #848484;
+}
+
+._12-g .fbEigenpollFacepile .fbQuestionFacepileMoreItem {
+    background-color: #353433;
+    border: 1px solid #525252;
+}
+
+._1dsq:hover {
+    background-color: #383737!important;
+}
+
+._42i {
+    border-top: 1px dashed #525252;
+}
+
+._42i {
+    border-top: 1px dashed #525252;
+}
+
+._1hw_ {
+    background: #353535;
+}
+
+._1hx1,
+._1hwy {
+    background-color: #353535;
+    border-right: 1px solid #525252;
+}
+
+._1hx7 ._1hx9,
+._1hx7 ._1hx8 {
+    border-right: 10px solid #525252;
+}
+
+._1hka {
+    background-color: #353535;
+}
+
+._1li5 ._1av3 {
+    border: 2px solid #525252;
+}
+
+._1li5 ._1p7c,
+._1li5 ._1p7a {
+    border-top: 1px solid #525252;
+}
+
+._1li5 ._1p7b {
+    border-left: 1px solid #525252;
+}
+
+._1li5 ._1p7d {
+    border-left: 1px solid #525252;
+}
+
+._1li5 ._1p7d {
+    border-right: 1px solid #525252;
+}
+
+._1auz {
+    background: #2B2B2B;
+    border: 2px solid #525252;
+}
+
+._1li5 {
+    border: 0 solid rgba(53, 53, 53, 0.75);
+}
+
+._5g79._36w9 {
+    background-color: rgba(53, 53, 53, 0.35);
+    box-shadow: 0 0 0 2px rgb(82, 82, 82);
+}
+
+._bbn {
+    background-color: #2B2B2B;
+}
+
+._5r8a._5r8b {
+    background: #353535;
+}
+
+._5r8e {
+    border-bottom: 1px solid #525252;
+}
+
+._5r8h:hover {
+    background-color: #353535;
+}
+
+._37wv,
+._5r86 {
+    border-left: 1px solid #525252;
+}
+
+._37wu {
+    border-right: 1px solid #525252;
+}
+
+._5r8l .uiScrollableArea.contentAfter:after {
+    background: -webkit-linear-gradient(rgba(255, 255, 255, .05), #2B2B2B);
+    background: linear-gradient(rgba(255, 255, 255, .05), #2B2B2B);
+}
+
+._37vc ._1k98 ._4qwu {
+    border-bottom: 2px solid #525252;
+}
+
+._37vc ._1k98 ._4qwr {
+    background: #2B2B2B;
+    border: 1px solid #525252;
+}
+
+._55jn._36w9.loaded {
+    box-shadow: 0 0 0 2px #525252;
+}
+
+._eb3:before {
+    background-color: #525252;
+}
+
+._4d3w .snowliftOverlayBar {
+    background-color: rgba(37, 36, 35, 0.8);
+}
+
+._55ln:focus,
+._55ln:hover,
+li.selected ._55ln {
+    background-color: #2B2B2B;
+    box-shadow: 1px 0 0 #525252 inset;
+}
+
+._2dck {
+    border-top: 1px solid #525252;
+}
+
+._4d6h {
+    border-bottom: 1px solid #525252;
+    background: #2C2C2C;
+}
+
+._2s1x ._2s1y {
+    background: #2C2C2C !important;
+    border-color: #525252!important;
+}
+
+._4ar- ._3emk,
+._ipo,
+._5vsj ._1g5v+._4arz,
+.UFILikeSentence ._4ar- ._3emk {
+    background: rgba(0, 0, 0, 0);
+}
+
+._4dyr {
+    background-color: #1D1D1D;
+    color: #848484;
+}
+
+._4vb8._4vba,
+._2v5c {
+    background-color: #353433;
+}
+
+._4dyr,
+._2v5c {
+    border-top: #525252 solid 1px;
+}
+
+._2v5c:hover {
+    background-color: #2B2B2B;
+}
+
+._1ncy {
+    background-color: #353433;
+}
+
+._59_m {
+    background-color: rgb(43, 43, 43);
+    border: 1px solid #525252;
+}
+
+._59_m ._58ah ._58al {
+    color: #848484;
+}
+
+._4-u2>._4-u3 {
+    border-top: 1px solid #525252;
+}
+
+hr {
+    background: #525252;
+}
+
+._1ndf:hover {
+    background-color: #2B2B2B;
+}
+
+._2-mo {
+    background-color: #525252;
+}
+
+._i5q ._2-mp,
+._i5q ._2-mn {
+    background-color: #525252;
+}
+
+html ._4__g {
+    border: 1px solid #525252;
+    border-left-color: #525252;
+    border-right-color: #525252;
+}
+
+.escapeHatchMinimal {
+    background-color: #353433;
+}
+
+html ._4lh ._1zw6 {
+    color: #848484;
+}
+
+._1fa6 ._3fbp {
+    background: #2B2B2B;
+}
+
+._1fa6 ._3fbq {
+    background: rgba(0, 0, 0, 0);
+}
+
+._52c6 {
+    border-color: #525252 #525252 #525252;
+}
+
+._5h55 ._1ui6 {
+    color: #848484;
+}
+
+._5h55 ._1ui7 {
+    color: #747D8E;
+}
+
+.uiTypeahead {
+    border: 1px solid #525252;
+}
+
+._4d3w .stageWrapper {
+    background-color: rgba(44, 44, 44, 0.45);
+}
+
+._4fzb {
+    border: 1px solid #525252;
+}
+
+._4fzb ._5pco,
+._4fzb ._5pco p {
+    color: #848484;
+}
+
+._1g5v+._4arz {
+    background: #353433;
+}
+
+._5i_t {
+    border-color: #525252;
+}
+
+._3od9 ._3odc {
+    background-color: #212121;
+}
+
+._3od9 ._3_xs,
+._1cis ._3odd ._54nh {
+    color: #ABABAB;
+}
+
+span._54nc._54ah {
+    cursor: default;
+}
+
+._17c0 {
+    color: #848484;
+    background-color: #353433;
+    border-bottom: 1px solid #525252;
+}
+
+._17c2:hover ._17c3 {
+    border: 3px solid #5890FF;
+}
+
+._17c2 ._17c3 {
+    border: 3px solid #525252;
+}
+
+._3b3l ._17c3 {
+    border: 3px solid #00A000;
+}
+
+._4d-.fbPhotosRedesign .photoText {
+    border: 1px solid #525252;
+}
+
+._42me,
+._42me:hover {
+    background: rgba(43, 43, 43, 0.50);
+    border: 0px solid #525252;
+}
+
+.fbPhotoTagger .faceboxSuggestion,
+.fbPhotoTagger .typeaheadBackdrop,
+.fbPhotoTagger .uiTypeaheadView {
+    background: #1D1D1D;
+}
+
+.fbPhotoTagger .photoTagTypeahead,
+.fbPhotoTagger .photoTagTypeahead .wrap {
+    border-color: #525252;
+}
+
+._1njq {
+    background-color: #2B2B2B;
+    border: 1px solid #525252;
+}
+
+._rzn {
+    border: 1px solid #525252;
+}
+
+._39s2 {
+    border-bottom: 1px solid #525252;
+}
+
+._cyv {
+    color: #848484;
+}
+
+body:not(.SettingsPage) #leftCol:hover body:not(.SettingsPage) #leftCol:after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(82, 82, 82, 0) 73%, #525252 100%)!important;
+}
+
+._1n-e {
+    color: #848484;
+}
+
+._36zg {
+    color: #525252!important;
+}
+
+._25g6 {
+    background-color: #1D1D1D;
+}
+
+._9fj {
+    border-color: #525252;
+}
+
+._2l5e ._2l5d:hover {
+    background: #1D1D1D;
+}
+
+._2l5e ._2l5d {
+    border-right: 1px solid #525252;
+}
+
+._5esx ._58ak {
+    background: #2B2B2B;
+}
+
+._5esl td._5esm:first-child {
+    background: #353433;
+    border-right: 1px dotted #525252;
+}
+
+table {
+    border-color: #525252!important;
+}
+
+._5esl td._5esw {
+    background: #2B2B2B;
+}
+
+table._5esl,
+._5esl {
+    border-top: 1px dotted #525252;
+}
+
+._50hx,
+._50hx:hover {
+    background-color: #353433;
+    border-left: 1px solid #525252;
+    border-right: 1px solid #525252;
+}
+
+._3xem:hover {
+    background-color: #353433;
+}
+
+._5w-6 {
+    color: #F9FF00;
+}
+
+._511m,
+._5w-5 {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 0, #FF7800 50%, rgba(139, 134, 133, 0) 100%)!important;
+}
+
+._3s18:hover ._3s19 {
+    background: #2C2C2C;
+    border-color: #525252;
+}
+
+._3s1a {
+    background-color: #353433;
+    border: 1px solid #353433;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .3)!important;
+}
+
+._3s18 ._3c_:hover {
+    background-color: #2B2B2B;
+}
+
+.fbxPhoto .fbPhotoTagList .textTagHovercardLink {
+    color: #00A000;
+}
+
+._5vsj ._1g5v+._4arz {
+    background: rgb(37, 36, 35);
+}
+
+._4d3w .videoStage,
+.imageLoading .stage,
+.imagePixelsLoading .stage {
+    background: rgba(44, 44, 44, 0) url(/rsrc.php/v2/y7/r/pgEFhPxsWZX.gif) no-repeat center center;
+}
+
+._ei_ {
+    border-top: 1px solid #525252;
+}
+
+._5vb_,
+._5vb_ #contentCol {
+    background-color: #2C2C2C;
+}
+
+._3com {
+    background-color: #202020;
+}
+
+._3con {
+    color: #848484;
+}
+
+._3coj {
+    background-color: #353433;
+}
+
+._31qf {
+    border-color: #525252;
+}
+
+._43q8._49cb {
+    background-color: #353433;
+    border: 1px solid #525252;
+}
+
+._1jwy:hover {
+    border-color: #202020;
+}
+
+._31qi {
+    background-color: #353433;
+}
+
+._4mq3 .uiScrollableArea {
+    background-color: #353433;
+}
+
+._3na7 ._4jy0 {
+    background: rgba(30, 30, 30, 0.65);
+}
+
+._3na7 ._517h:hover {
+    background-color: #252423;
+}
+
+._3na7 ._517h {
+    border-color: #525252;
+}
+
+.litestandClassicWelcomeBox.fbxWelcomeBox a,
+.litestandClassicWelcomeBox.fbxWelcomeBoxSmall a {
+    color: #848484;
+}
+
+.fbxWelcomeBoxSmall .fbxWelcomeBoxSmallRow:hover {
+    background-color: #2d2c2b !important;
+}
+
+._4xi1 li {
+    padding: 2px;
+}
+
+._5w1r._31xx._5wdf {
+    border: none;
+}
+
+._22sv {
+    background-color: #2C2C2C;
+}
+
+._4fby {
+    border: 1.5px solid #525252;
+}
+
+.__wu .roundedBox .uiTypeahead .searchIcon {
+    background-position: -45px -190px;
+}
+
+._1tm3 ._4-h7:hover {
+    background-color: #252423;
+}
+
+._4-h7 {
+    padding: 8px 4px 2px 4px;
+}
+
+._3na7 ._4jy1 {
+    border-color: rgb(0, 251, 21);
+}
+
+._3na7 ._4jy1:hover,
+._3na7 ._4jy1:active,
+._3na7 ._4jy1._42fs {
+    background-color: rgba(0, 251, 21, 0.30);
+    border-color: rgb(0, 251, 21);
+}
+
+._5pcb._4b0l {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+._58zy {
+    color: #D9D9D9;
+    background: #252423;
+    border: 1px solid #525252;
+}
+
+._5rul {
+    background: #252423;
+    border: 1px solid #525252;
+}
+
+._wrr label._58ak {
+    background-color: #2B2B2B;
+}
+
+input._58al {
+    color: #D9D9D9;
+}
+}

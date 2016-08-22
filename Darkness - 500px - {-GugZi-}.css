@@ -1,0 +1,217 @@
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .3)
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, .4)
+}
+
+html,
+body,
+html.activities_show,
+html.activities_index,
+html.user_flow,
+.discovery_photo_grid,
+#flow .box,
+#content,
+.profile_body,
+.discovery_body,
+.galleries_layout .body_region .photo_grid_region,
+.following_tab,
+.activity_tab {
+    background-color: #262626 !important;
+}
+
+.background.header,
+body.v3 .background.header,
+.discovery_navigation,
+.px_tabs,
+.popover .contain,
+.popover .inside,
+.popover .header,
+.category_content .contain .footer,
+.popup .inside,
+#popup_more .bottom,
+.px_card,
+.px_card .top,
+.px_card .bottom,
+.groups_sidenav,
+.infinite_scroll_container .infinite_scroll_loader,
+.infinite_scroll_container .infinite_scroll_warning,
+body.v3 #px #more.disabled,
+#popup_notifications .header,
+.photos_index_layout .tags_container .tag,
+.uploader_layout .main_region {
+    background-color: #2c2c2c !important;
+    border: none !important;
+}
+
+.galleries_layout .sticky_ui {
+    background-color: #1D1D1D;
+}
+
+.galleries_layout .sticky_ui__left a.actor {
+    color: #848484;
+}
+
+#pxLightbox_background {
+    background-color: rgba(29, 29, 29, .94) !important;
+}
+
+.photos_index_layout .main_container .photo_sidebar {
+    border: none;
+    background-color: #1d1d1d;
+}
+
+.photos_index_layout {
+    background-color: #262626;
+}
+
+.photos_index_layout .main_container .photo_container {
+    background-color: rgba(38, 38, 38, 0.65) !important;
+}
+
+.photos_index_layout .main_container .photo_sidebar .tabs_region .tabs_view .tab_content_region {
+    background-color: transparent !important;
+}
+
+.photos_index_layout .main_container .photo_sidebar .section {
+    text-align: left;
+    padding: 20px;
+    border-bottom: solid 1px #3b3b3b;
+}
+
+.photos_index_layout .main_container .photo_container {
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.photos_index_layout .main_container .photo_sidebar .tabs_region .tabs_view .tab_content_region .activity_tab .new_comment_container,
+.groups_sidenav .sort_section,
+.groups_sidenav .search_section,
+.groups_index .sidebar_region .groups_sidenav .create_group {
+    border-top: 1px solid #3b3b3b;
+    background-color: transparent;
+}
+
+textarea,
+input {
+    background-color: #3b3b3b;
+    color: #e8e8e8;
+}
+
+#flow .box.full .photos.three .photo.three,
+#flow .box.full .photos.three .grid .three.ad,
+.grid #flow .box.full .photos.three .three.ad,
+#flow .box.full .photos.three .photo.one,
+#flow .box.full .photos.three .grid .one.ad,
+.grid #flow .box.full .photos.three .one.ad,
+#flow .box.full .photos.four .photo.three,
+#flow .box.full .photos.four .grid .three.ad,
+.grid #flow .box.full .photos.four .three.ad,
+#flow .box.full .photos.four .photo.one,
+#flow .box.full .photos.four .grid .one.ad,
+.grid #flow .box.full .photos.four .one.ad,
+#flow .box.full .photos.four .photo.two,
+#flow .box.full .photos.four .grid .two.ad,
+.grid #flow .box.full .photos.four .two.ad {
+    border: none;
+}
+
+.popup .arrow .fill,
+.popup .arrow {
+    border-bottom-color: #2C2C2C;
+}
+
+.flow_callout {
+    display: none;
+}
+
+.photos_index_layout .main_container .photo_sidebar .description_region,
+.photos_index_layout .main_container .photo_sidebar .actions_region,
+.photos_index_layout .main_container .photo_sidebar .attribution_region,
+.photos_index_layout .main_container .photo_sidebar .actors_region,
+.photos_index_layout .main_container .photo_sidebar .sidebar_expandable_header,
+.photos_index_layout .main_container .photo_sidebar .photo_activity_section .new_comment_container,
+.photos_index_layout .main_container .photo_sidebar .photo_activity_section .comments_region .comments_view {
+    background-color: #1D1D1D;
+}
+
+.photos_index_layout .main_container .photo_sidebar .sidebar_expandable_header,
+.photos_index_layout .main_container .photo_sidebar .actors_region .liked_by_container,
+.photos_index_layout .main_container .photo_sidebar .description,
+.galleries_body__navigation,
+.galleries_layout .galleries_header {
+    border-bottom: 1px solid #525252;
+}
+
+.photos_index_layout .main_container .photo_sidebar .sidebar_expandable_header:hover {
+    background-color: #2C2C2C;
+}
+
+.photos_index_layout .main_container .photo_sidebar .photo_activity_section .new_comment_container .new_comment {
+    border: 1px solid #525252;
+}
+
+.px_tabs_fade {
+    background: none;
+}
+
+.button.tertiary {
+    background-color: #2C2C2C;
+    border-color: #525252;
+    color: #848484;
+}
+
+.button.tertiary:hover {
+    background-color: #1D1D1D;
+}
+
+.tab_wrapper {
+    border-bottom: 1px solid #525252;
+}
+
+.photo_activity_item {
+    background-color: #262626;
+    border: 1px solid #525252;
+}
+
+.sidebar__profile_region {
+    background-color: #2C2C2C;
+    border: 1px solid #525252;
+}
+
+.sidebar__profile_top {
+    border-bottom: 1px solid #525252;
+}
+
+.suggested_users_widget__top {
+    border-top: 1px solid #525252;
+}
+
+.sidebar__profile_stat {
+    border-right: 1px solid #525252;
+}
+
+.blog_posts_widget__top,
+.opt_out_widget__copy {
+    border-top: 1px solid #525252;
+}
+
+.photo_activity_item__details_top {
+    border-bottom: 1px solid #525252;
+}

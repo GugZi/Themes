@@ -1,0 +1,269 @@
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .3)
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, .4)
+}
+
+html,
+body,
+.bg-wrapper,
+#container .scenes-wrapper,
+#container > section,
+body > #container,
+#container {
+    background-color: #2B2B2B!important;
+}
+
+body {
+    background: none!important;
+}
+
+.navigation {
+    background: none !important;
+    background-color: #212121 !important;
+}
+
+.section-model-profile-container {
+    background: none !important;
+}
+
+.release-card .scene-card-info {
+    background: #353535 !important;
+}
+
+.release-card .card-image,
+.page-home section .model-card-container .model-card-wrap,
+.model-card-container .model-card-wrap {
+    background: #353535 !important;
+    box-shadow: 0px 0px 5px black !important;
+    border: 1px solid black !important;
+}
+
+.page-home section .model-card-container .model-card-wrap {
+    width: 208px !important;
+}
+
+.scene-card-info .scene-card-title a,
+.scene-card-info h4 a,
+.membership-guest section header.section-header h2,
+.page-home section header h2,
+.page-home .section-header .more .nav-button-txt {
+    color: #848484 !important;
+}
+
+.model-card .card-image:hover {
+    background-color: #525252 !important;
+}
+
+.model-card .card-image {
+    background-color: #212121 !important;
+}
+
+.big-pic-model-container nav {
+    background: #353535 !important;
+}
+
+.navigation > ul > li > a {
+    background: -webkit-linear-gradient(top, #2B2B2B 0, #212121 56%, #212121 62%, #353535 100%) !important;
+    border-left: 1px solid #525252 !important;
+    border-right: 1px solid #525252 !important;
+    color: #848484 !important;
+    text-shadow: none !important;
+}
+
+.navigation a.nav-main-home {
+    border-left: 1px solid #525252 !important;
+}
+
+.disclaimer-terms-box {
+    background-color: #1F1F1E;
+    border: 1px solid #525252;
+}
+
+.cta-floater.holiday-2015-floater {
+    display: none !important;
+}
+
+.section-header,
+.release-card-container {
+    background: #1F1F1E!important;
+}
+
+.section-release-card,
+.explore-tab,
+.section-filter,
+.pornstars-filter,
+.section-model-container {
+    background: transparent;
+}
+
+.section-header .number {
+    color: #848484;
+    text-shadow: none;
+}
+
+.normal-state input,
+.open-state input,
+.tag-filter input[type="text"],
+.navigation > ul > li.last > div {
+    background: #1F1F1E;
+    border: 1px solid #525252;
+}
+
+.open-state {
+    background: #2B2B2B;
+    box-shadow: 0 0 20px #525252;
+}
+
+.open-state hr {
+    background: #525252;
+    border-bottom: 1px solid #525252;
+}
+
+hr {
+    border-top: 1px solid #525252;
+}
+
+.sort-by a,
+.date-filter a,
+ul.nav-list a,
+.gender a,
+.zz-rank-filter a,
+.filter-by-letter a {
+    color: #848484;
+    background: -webkit-linear-gradient(top, #1F1F1E 0%, #242424 61%, #2B2B2B 63%, #2B2B2B 100%);
+    border: 1px solid #525252;
+    border-color: #525252;
+    text-shadow: none;
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+}
+
+.sort-by a:hover,
+.date-filter a:hover,
+ul.nav-list li.focus a,
+ul.nav-list a:hover,
+.pornstars-filter a:hover,
+.sort-by a.selected,
+.date-filter a.selected,
+ul.nav-list a.selected,
+.gender a.selected,
+.zz-rank-filter a.selected,
+.filter-by-letter a.selected {
+    color: #FF3600;
+    background: #353535;
+    text-shadow: none;
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+}
+
+.sort-by a.selected,
+.date-filter a.selected,
+ul.nav-list a.selected,
+.gender a.selected,
+.zz-rank-filter a.selected,
+.filter-by-letter a.selected {
+    border-top: 1px solid #525252;
+}
+
+.typeahead.dropdown-menu {
+    background: #1F1F1E !important;
+    -moz-box-shadow: 0 5px 6px #525252;
+    -webkit-box-shadow: 0 5px 6px #525252;
+    box-shadow: 0 5px 6px #525252;
+}
+
+.typeahead.dropdown-menu li a,
+.typeahead.dropdown-menu li h4 {
+    border-bottom: 1px solid #525252;
+}
+
+.typeahead.dropdown-menu li a strong {
+    color: #FF3600;
+}
+
+.model-card-wrap .model-card .latest-tab,
+.model-card-wrap .model-card .latest-tab:after {
+    background-color: #1F1F1E;
+}
+
+.model-card-wrap .model-card img.latest-scene-thumb {
+    border: 3px solid #1F1F1E;
+    box-shadow: 0px 0px 5px black !important;
+}
+
+.label-scene {
+    background: #1F1F1E;
+    box-shadow: 0px 0px 5px black !important;
+}
+
+.pornstars-filter ul.filterByLetter a {
+    border-color: #525252;
+}
+
+.collection-card-wrapper {
+    background: none;
+}
+
+.likes-dislikes-box {
+    background: #1A1A1A;
+    border: 1px solid #525252;
+    box-shadow: 0px 0px 5px black !important;
+}
+
+div.collection-card .site-latest-scene {
+    border-right: 1px dotted #525252;
+}
+
+div.collection-card .site-latest-scene p {
+    color: #848484;
+}
+
+.label-scene .label-text {
+    color: #848484;
+}
+
+.categories,
+.release-card-container {
+    background: transparent;
+}
+
+.section-header h1,
+.section-header h2 {
+    color: #848484;
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+
+.popular-tags li {
+    border: 7px solid #525252;
+    box-shadow: 0px 0px 5px black !important;
+}
+
+.popular-tags li a.tag {
+    border: 5px solid #353535;
+    box-shadow: 0px 0px 5px black !important;
+}
+
+.categories-section-header select.select-category {
+    background: #212121;
+    border: 1px solid #525252;
+    box-shadow: 0px 0px 5px black !important;
+}

@@ -1,0 +1,305 @@
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .3)
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, .4)
+}
+
+body.one-page {
+    background: #2B2B2B;
+}
+
+div.player-card {
+    background: #353535;
+    border: 1px solid #525252;
+}
+
+div.player-card .header h3 a,
+section.game-info .players .player-card .name a {
+    color: #848484;
+}
+
+section.game-info .players .player-card {
+    border: 1px solid #525252;
+}
+
+div.player-card .game-stats {
+    border-top: 1px solid #525252;
+    background: #353535;
+}
+
+div.player-card .header {
+    border-bottom: 1px solid #525252;
+}
+
+.onboarding-card {
+    background: #353535;
+    border: 1px solid #525252;
+}
+
+h3,
+h4 {
+    color: #848484;
+}
+
+.onboarding-card h3 {
+    border-bottom: 1px solid #525252;
+}
+
+.onboarding-card .step h4 span {
+    color: #00A000;
+}
+
+.onboarding-card .vertical-bar {
+    background: #525252;
+}
+
+div.player-card .game-stats .stat h3,
+div.player-card .stats .stat h3 {
+    color: #848484;
+}
+
+section.live-matches .game-feed {
+    background: #353535;
+    border: 1px solid #525252;
+}
+
+section.live-matches .game-feed-item {
+    border-bottom: 1px solid #525252;
+}
+
+section.live-matches .game-feed-item .text .primary a {
+    color: #00A000;
+}
+
+section.live-matches .game-feed-item .text .primary {
+    color: #848484;
+}
+
+section.game-info .control {
+    background: #353535;
+    border: 1px solid #525252;
+}
+
+section#sub-nav {
+    background: #212121;
+    border-bottom: 1px solid #525252;
+}
+
+section#matchmaking section.matchmaking section.play.state-pick-type {
+    background: #353535;
+}
+
+section#matchmaking section.matchmaking section.play.state-pick-type .hint p {
+    color: #848484;
+}
+
+#scroll-carousel ul li .bet-container {
+    background: #212121;
+    border: 2px solid #525252;
+}
+
+.tab {
+    border: 2px solid #525252;
+    background: #212121;
+}
+
+section#matchmaking section.matchmaking section.play {
+    border: 1px solid #525252;
+}
+
+section#matchmaking section.matchmaking div.matchmaking-options ul li {
+    border: 2px solid #525252;
+    background: #212121;
+}
+
+section#matchmaking section.matchmaking div.matchmaking-options ul li a {
+    color: #848484;
+}
+
+footer #main-footer {
+    background: #2B2B2B;
+}
+
+footer {
+    border-top: 1px solid #525252;
+}
+
+footer #final-footer {
+    background: #2B2B2B;
+    border-top: 1px solid #525252;
+}
+
+.select .toggle {
+    border: 2px solid #525252;
+    color: #848484;
+    background-color: #212121;
+}
+
+div.region .select-container .toggle {
+    color: #848484;
+}
+
+div.region .select-container .options li:hover a {
+    color: #848484;
+}
+
+.select .select-container .options li a:hover {
+    background-color: #353535;
+}
+
+.select .select-container .options li a {
+    background-color: #212121;
+}
+
+.select .select-container .options li,
+.select .select-container .options {
+    border-color: #525252;
+}
+
+section#matchmaking section.matchmaking section.play.state-pick-type .hint p span {
+    background: #212121;
+    border: 1px solid #525252;
+}
+
+section.profile .profile-info,
+section.profile-sidebar .panel {
+    background: #353535;
+    border: 1px solid #525252;
+}
+
+section.profile section.form-submit {
+    background: #353535;
+    border-top: 1px solid #525252;
+}
+
+input {
+    color: #848484;
+    background-color: #212121;
+}
+
+section.action-panel form input,
+section.action-panel form textarea,
+section.profile-feature form input,
+section.profile-feature form textarea,
+section.profile-info form input,
+section.profile-info form textarea {
+    border: 2px solid #525252;
+}
+
+section.profile section.profile-feature {
+    background: #353535;
+    border: 1px solid #525252;
+}
+
+section.profile section.profile-feature.form-included div:last-child.call-to-action {
+    background: #353535;
+    border-top: 1px solid #525252;
+}
+
+section.profile section.profile-feature .heading p a {
+    color: #00A000;
+}
+
+section.profile section.profile-info-header .stats div {
+    color: #848484;
+}
+
+#header-wrapper.white {
+    background: #212121;
+    border-bottom: 1px solid #525252;
+}
+
+section#sub-nav section.dashboard-nav ul li.active span,
+section#sub-nav section.dashboard-nav ul li:hover span {
+    color: #E44A35;
+}
+
+#header-wrapper.white section#navigation ul.list-inline li.profile-picture.drop-enabled,
+#header-wrapper.white section#navigation ul.list-inline li.money.drop-enabled,
+#header-wrapper.white section#navigation ul.list-inline li.rubies.drop-enabled {
+    background: #353535;
+    border-left: 1px solid #525252;
+    border-right: 1px solid #525252;
+}
+
+.profile-dropdown {
+    background: #353535;
+    border: 1px solid #525252;
+}
+
+.profile-dropdown ul li a {
+    color: #00A000;
+    background: #353535;
+}
+
+footer #main-footer .content .company .social {
+    border-top: 2px solid #525252;
+}
+
+footer #final-footer .built-with h3,
+footer #final-footer .company h4 {
+    color: #848484;
+}
+
+.store-container {
+    background: #2B2B2B;
+    border: 1px solid #525252;
+}
+
+.page-body {
+    background: #2B2B2B;
+    color: #848484;
+}
+
+.store-image {
+    background: #2B2B2B;
+    border: 1px solid #525252;
+}
+
+.store-item-title {
+    background: #2B2B2B;
+    border: 1px solid #525252;
+}
+
+section.page-hero {
+    background: #2B2B2B;
+    border-bottom: 1px solid #525252;
+}
+
+section.page-hero section.content h3 {
+    color: #848484;
+}
+
+.ember-modal-wrapper .list,
+.page-body .list {
+    background: #2B2B2B;
+    border: 1px solid #525252;
+}
+
+.remodal h3 {
+    color: #848484;
+}
+
+.remodal hr {
+    background: #525252;
+}
+
+.ember-modal-wrapper .ember-modal-overlay {
+    background: rgba(43, 43, 43, 0.75);
+}

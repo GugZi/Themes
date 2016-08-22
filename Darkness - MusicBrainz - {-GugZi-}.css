@@ -1,0 +1,290 @@
+@-moz-document domain("musicbrainz.org") {
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .3);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, .4);
+}
+
+::selection {
+    background: #ed1c24;
+    color: white;
+}
+
+a {
+    color: #F9FF00;
+}
+
+a:visited,
+#footer a {
+    color: #F9FF00;
+}
+
+body,
+#current-editing,
+#page {
+    background: #2B2B2B;
+}
+
+body {
+    color: #FF8400;
+}
+
+.header .right .top,
+.feature-column h2 {
+    border-bottom: #E81123 2px solid;
+}
+
+.header .right ul.menu li.fake-active,
+.header .right ul.menu li:active,
+.header .right ul.menu li:hover,
+.header .right ul.menu li ul li:hover {
+    background-color: #E81123;
+}
+
+.header .right ul.menu li ul li {
+    background-color: #2C2C2C;
+}
+
+.header .right ul.menu li ul li a {
+    color: #00A000;
+}
+
+input {
+    color: #F9FF00;
+    background: #353433;
+    border: 1px solid #E81123;
+}
+
+keygen,
+select,
+select[size="0"],
+select[size="1"] {
+    color: #F9FF00;
+    background: #353433;
+    border: 1px solid #E81123;
+}
+
+.header .right .top .search-container form input#headerid-query {
+    border: 1px solid #E81123;
+    border-right-color: #E81123;
+}
+
+.header .right .top .search-container form select#headerid-type {
+    background-color: #353433;
+    border: 1px solid #E81123;
+    border-left-color: #E81123;
+    border-right-color: #E81123;
+}
+
+select {
+    color: #A9A9A5;
+}
+
+.header .right .top .search-container form button {
+    background-color: #353433;
+    border: 1px solid #E81123;
+    border-left-color: #E81123;
+}
+
+table.tbl tr.even td,
+table.tbl tr.even th {
+    background: #353433;
+}
+
+table.tbl tr.subh td,
+table.tbl tr.subh th {
+    background: #353433;
+    border-top: solid 1px #E81123;
+    border-bottom: solid 1px #E81123;
+}
+
+table.tbl tbody th {
+    border-right: 1px solid #E81123;
+}
+
+table.tbl th {
+    border-left: solid 1px #E81123;
+    border-bottom: solid 1px #E81123;
+}
+
+table.tbl {
+    border-top: solid 1px #E81123;
+    border-bottom: solid 1px #E81123;
+}
+
+table.tbl thead {
+    background: #2B2B2B;
+}
+
+table.tbl th a {
+    color: #00A000;
+}
+
+.annotation-collapsed:after,
+.review-collapsed:after,
+.wikipedia-extract-collapsed:after {
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0, #2B2B2B 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(100%, #2B2B2B));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0, #2B2B2B 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0, #2B2B2B 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0, #2B2B2B 100%);
+    background: linear-gradient(top, rgba(255, 255, 255, 0) 0, #2B2B2B 100%);
+}
+
+nav .pagination a {
+    background-color: #353433;
+    color: #F9FF00;
+}
+
+nav .pagination a,
+nav .pagination span {
+    border: solid 1px #525252;
+}
+
+nav .pagination span {
+    background-color: #353433;
+    color: #FF7800;
+}
+
+#sidebar {
+    border-left: 1px solid #E81123;
+}
+
+div.tabs {
+    border-bottom: solid 1px #E81123;
+}
+
+div.tabs ul li a {
+    color: #F9FF00;
+    border: solid 1px #E81123;
+}
+
+div.tabs ul li a:hover,
+nav .pagination a:hover {
+    color: white;
+    background-color: #EB743B;
+    border-color: #E81123;
+}
+
+#sidebar ul.links hr {
+    background-color: #E81123;
+}
+
+h1 a {
+    color: #F9FF00 !important;
+}
+
+#all-tags .tag-list li.even {
+    background: #353433;
+}
+
+.tag-count {
+    color: #F9FF00;
+    background: #2B2B2B;
+    border: 1px solid #E81123;
+}
+
+textarea {
+    color: #F9FF00;
+    background-color: #353433;
+    border-color: #E81123;
+}
+
+div.half-width fieldset {
+    border: 1px solid #E81123;
+}
+
+div.half-width fieldset input.with-guesscase {
+    border: 1px solid #E81123;
+}
+
+input.lookup-performed,
+input.success {
+    background: #353433;
+}
+
+.bubble {
+    background: #353433;
+}
+
+.bubble.left-tail:before {
+    border-right: 18px solid #353433;
+}
+
+#relationship-editor button.add-item {
+    color: #FF7800;
+}
+
+.c78510b06563a4ae2621eeb155a8e0e05dbb017ae {
+    border: 1px solid #E81123;
+    box-shadow: 0 1px 3px #E81123;
+    border-bottom: 1px solid #E81123;
+    background: #353433;
+}
+
+.c419fa639f06db044ba024d083756608c2798774f:before {
+    border-right: 9px solid #E81123;
+}
+
+.c419fa639f06db044ba024d083756608c2798774f:after {
+    border-right: 9px solid #353433;
+}
+
+.ca3757ca8f954b56e807a47f9bad8278e40926dd1 {
+    left: 55px;
+}
+
+.buttons a,
+.buttons button {
+    color: #F9FF00 !important;
+    background-color: #2B2B2B !important;
+    border: 1px solid #E81123 !important;
+}
+
+.buttons a.positive:focus,
+.buttons a.positive:hover,
+.buttons button.positive:focus,
+.buttons button.positive:hover {
+    background-color: #EB743B !important;
+    border: 1px solid #E81123 !important;
+    color: #FFFFFF !important;
+}
+
+table.statistics th {
+    border: 1px solid #E81123;
+    background: #353433;
+}
+
+table.statistics td {
+    border: 1px solid #E81123;
+}
+
+div.artwork-cont {
+    background: #353433;
+    border: 1px solid #E81123;
+}
+
+div.mp,
+span.mp,
+table.tbl tr.mp td,
+table.tbl tr.mp th,
+tr.diff-changes {
+    background: #E81123!important;
+}
+}

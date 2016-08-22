@@ -1,0 +1,292 @@
+/* display: none !important; */
+
+.section.infoBlock.sharePage.hideOnResponsive,
+.section.infoBlock.hashTagCloud,
+div#gcm-enable {
+    display: none !important;
+}
+
+body,
+html {
+    background: #000 url("http://assets.razerzone.com/eeimages/assets/images/common/honeycomb-bg.jpg") repeat !important;
+    color: rgb(65, 251, 65) !important;
+}
+
+html {
+    color: #000 !important;
+    background: #000 !important;
+}
+
+.sidebar .section .primaryContent h3 a,
+.sidebar .section .secondaryContent h3 a {
+    color: rgb(0, 179, 0);
+}
+
+#content .pageContent {
+    background-color: rgba(246, 247, 249, 0.1) !important;
+}
+
+.message .messageInfo {
+    border-bottom: 1px none rgba(0, 179, 0, 0.75) !important;
+}
+
+.primaryContent {
+    background-color: rgba(32, 32, 32, 0.85) !important;
+}
+
+.messageUserBlock {
+    background-color: rgba(32, 32, 32, 0.55) !important;
+    border: 1px solid rgba(0, 179, 0, 0.75) !important;
+}
+
+.messageUserBlock div.avatarHolder {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.messageList .message {
+    border-top: 1px solid #00b300 !important;
+}
+
+.bbCodeQuote .quoteContainer {
+    background-color: rgba(0, 0, 0, .1) !important;
+}
+
+.bbCodeQuote .attribution {
+    color: rgb(0, 179, 0) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-bottom: 1px solid rgb(0, 179, 0) !important;
+}
+
+.bbCodeQuote {
+    border-color: rgb(0, 179, 0) !important;
+}
+
+.message .likesSummary {
+    border: 1px solid rgb(0, 179, 0) !important;
+}
+
+.secondaryContent {
+    background-color: rgb(17, 17, 17) !important;
+}
+
+.messageUserBlock .arrow span {
+    border-left-color: rgb(102, 255, 102) !important;
+}
+
+.messageUserBlock .arrow {
+    border-left-color: rgb(0, 179, 0) !important;
+}
+
+.Menu .primaryContent,
+.Menu .secondaryContent,
+.Menu .sectionFooter {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.textCtrl {
+    color: rgb(204, 255, 204) !important;
+    background: rgba(0, 0, 0, .1) url('styles/razer/xenforo/clear.png') !important;
+    border-top-color: rgb(0, 179, 0) !important;
+    border-right-color: rgb(0, 179, 0) !important;
+    border-bottom-color: rgb(0, 179, 0) !important;
+    border-left-color: rgb(0, 179, 0) !important;
+}
+
+.textCtrl:focus,
+.textCtrl.Focus {
+    background: rgba(0, 0, 0, .1) !important;
+    border-top-color: rgb(0, 179, 0) !important;
+    border-bottom-color: rgb(0, 179, 0) !important;
+}
+
+textarea.textCtrl:focus {
+    background-image: none !important;
+}
+
+.blockLinksList a:hover,
+.blockLinksList a:focus,
+.blockLinksList li.kbSelect a,
+.blockLinksList label:hover,
+.blockLinksList label:focus,
+.blockLinksList li.kbSelect label {
+    background-color: rgb(32, 32, 32) !important;
+}
+
+#QuickSearch {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.formPopup,
+.formPopup .controlsWrapper {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.sectionMain {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.discussionListItem .posterAvatar,
+.discussionListItem .stats {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.discussionListItem {
+    background-color: rgba(32, 32, 32, 0.85) !important;
+    border-bottom: 1px solid rgb(0, 179, 0) !important;
+}
+
+.discussionListItems .unread .title a {
+    color: rgb(0, 202, 0) !important;
+    text-decoration: underline !important;
+}
+
+.discussionList .sectionHeaders {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-top: 1px none rgb(0, 179, 0) !important;
+    border-bottom: 1px solid rgb(0, 179, 0) !important;
+}
+
+.discussionList .sectionHeaders a {
+    color: rgb(0, 179, 0) !important;
+}
+
+body .itemPageNav a:hover {
+    color: rgb(153, 255, 153) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-color: rgb(0, 179, 0) !important;
+}
+
+body .itemPageNav a {
+    color: rgb(127, 127, 127) !important;
+    background: rgba(0, 0, 0, .1) !important;
+    border: 1px solid rgb(51, 51, 51) !important;
+}
+
+.discussionList .sectionHeaders dd a[href]:hover {
+    text-decoration: none;
+    background: rgb(17, 17, 17) !important;
+}
+
+.sectionFooter {
+    color: rgb(150, 150, 150) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-bottom: 1px solid rgb(0, 179, 0) !important;
+}
+
+#DiscussionListOptionsHandle a {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid rgb(0, 179, 0) !important;
+    border-top: 1px none rgb(0, 0, 0) !important;
+}
+
+.PageNav a {
+    color: rgb(127, 127, 127) !important;
+    background: rgba(0, 0, 0, .1) !important;
+    border: 1px solid rgb(51, 51, 51) !important;
+}
+
+.PageNav a.currentPage,
+.PageNav a:hover,
+.PageNav a:focus {
+    color: rgb(153, 255, 153) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-color: rgb(0, 179, 0) !important;
+}
+
+.footer .pageContent {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.razerCopyright,
+.footer a,
+.footer a:visited {
+    color: rgb(0, 179, 0) !important;
+}
+
+.profilePage .mast .section.infoBlock {
+    border: 1px solid rgb(0, 179, 0) !important;
+}
+
+.profilePage .mast {
+    border-right: 1px solid rgb(0, 179, 0) !important;
+}
+
+.primaryContent,
+.secondaryContent {
+    border-bottom: 1px solid rgb(0, 179, 0) !important;
+}
+
+.secondaryContent {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.profilePage .tabs.mainTabs {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.tabs li a,
+.tabs.noLinks li {
+    color: rgb(153, 255, 153) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid rgb(0, 179, 0) !important;
+}
+
+.profilePage .tabs.mainTabs li a:hover {
+    background-color: rgb(51, 51, 51) !important;
+}
+
+.tabs {
+    border-bottom: 1px solid rgb(0, 179, 0) !important;
+}
+
+.textHeading,
+.xenForm .sectionHeader {
+    color: rgb(153, 255, 153) !important;
+    border-bottom: 1px solid rgb(0, 179, 0) !important;
+}
+
+profilePage .mainProfileColumn {
+    border-left: 1px solid rgb(0, 179, 0) !important;
+}
+
+.profilePage .primaryUserBlock .lastActivity {
+    border-top: 1px solid rgb(0, 179, 0) !important;
+}
+
+.bbCodeQuote .quoteContainer .quoteExpand {
+    background: -webkit-linear-gradient(top, rgba(229, 229, 229, 0) 0%, rgb(22, 22, 22) 80%) !important;
+    background: -moz-linear-gradient(top, rgba(229, 229, 229, 0) 0%, rgb(22, 22, 22) 80%) !important;
+    background: -o-linear-gradient(top, rgba(229, 229, 229, 0) 0% rgb(22, 22, 22) 80%) !important;
+    background: linear-gradient(to bottom, rgba(229, 229, 229, 0) 0%, rgb(22, 22, 22) 80%) !important;
+}
+
+.messageList .message.staff {
+    border: 3px solid rgb(0, 179, 0);
+}
+
+.xenPreviewTooltip .arrow span {
+    border-top: 15px solid rgba(0, 0, 0, 0.5);
+}
+
+.nodeList .categoryStrip {
+    background-color: rgb(17, 17, 17);
+    border-bottom: 1px solid rgb(0, 179, 0);
+}
+
+.nodeList .categoryStrip .nodeTitle {
+    color: rgb(0, 179, 0);
+}
+
+li.category {
+    border: 1px solid rgb(0, 179, 0);
+}
+
+.extra_link {
+    color: rgb(0, 179, 0);
+    background-color: rgb(17, 17, 17);
+    border-top: 1px solid rgb(0, 179, 0);
+}
+
+.sidebar_drop {
+    background-color: rgb(51, 51, 51);
+}
