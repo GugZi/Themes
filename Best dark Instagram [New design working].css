@@ -1,0 +1,66 @@
+/*globals and main*/
+.-cx-PRIVATE-Shell__nav,.-cx-PRIVATE-MenuOption__root,.-cx-PRIVATE-Shell__footer,.page-home .page-footer,.-cx-PRIVATE-LoginPage__dialog{background-color:#0F0F0F!important;}
+.-cx-PRIVATE-MenuOption__root:hover{background-color:#242424!important;}
+.-cx-PRIVATE-Shell__nav,.-cx-PRIVATE-Navigation__main{height:50px;}
+.-cx-PRIVATE-Shell__content{background-color:#242424;}
+.-cx-PRIVATE-FeedPage__post,.-cx-PRIVATE-FeedPage__suggestedUsersList,.home-main,.splash-middle{background-color:#151515;border-width:0!important;}
+.-cx-PRIVATE-FeedPage__post{box-shadow: 0 0 30px #000 !important;}
+.-cx-PRIVATE-FeedPage__post,.-cx-PRIVATE-Menu__root,.-cx-PRIVATE-LoginPage__dialog{border-radius:0!important;}
+.-cx-PRIVATE-PostInfo__comment{color:#656565;}
+.-cx-PRIVATE-Navigation__brand{left:190px;position:fixed;top:0px;z-index:50;}
+.-cx-PRIVATE-Shell__nav,.-cx-PRIVATE-PostInfo__feedback,.-cx-PRIVATE-Post__feed .-cx-PRIVATE-Post__media,.-cx-PRIVATE-Menu__item,.-cx-PRIVATE-Menu__root,.-cx-PRIVATE-Post__flexible .-cx-PRIVATE-Post__header,.-cx-PRIVATE-PostPage__container,.-cx-PRIVATE-LoginPage__dialog{border-color:#2c2c2c;}
+input{color:#777;}
+.-cx-PRIVATE-Modal__closeButton{top:42%;right:28.5%;}
+.-cx-PRIVATE-PostModalConsumer__root .-cx-PRIVATE-Modal__closeButton{top:5%;right:11%;}
+.-cx-PRIVATE-Modal__closeButton:hover::before{color:#858585!important;}
+.-cx-PRIVATE-LoginPage__root{background-color:#101010!important;}
+  
+.-cx-PRIVATE-LoginEndMatter__appInstallLinksQuestion{color:#fafafa!important;}
+.-cx-PRIVATE-LoginPage__endMatter span,.-cx-PRIVATE-LoginForm__inputLabel{color:#ccc!important;}
+.-cx-PRIVATE-LoginForm__forgotLink{color:#0067B3!important;}
+  
+.-cx-PRIVATE-Navigation__menuItems a{position:fixed;z-index:50;}
+.-cx-PRIVATE-Navigation__menuItems a:first-child{right:225px;top:15px;}
+.-cx-PRIVATE-Navigation__menuItems a[href="/accounts/logout/"]{background-image:url("http://i.imgur.com/D5SUl9f.png");text-indent:110%!important;height:25px;width:20px;right:190px!important;top:13px!important;text-overflow:unset!important;}
+
+/*viw more coments*/
+
+.-cx-PRIVATE-PostInfo__comments{text-align:center;}
+[data-reactid*="$comment-"],.-cx-PRIVATE-PostInfo__comment:first-child{text-align:left!important;}
+.-cx-PRIVATE-PostInfo__comment:hover{background:#2c2c2c;}
+[data-reactid*="$comment-"]:hover,.-cx-PRIVATE-PostInfo__comment:hover:first-child{background:initial;}
+.-cx-PRIVATE-Post__feed .-cx-PRIVATE-PostInfo__commentsLoadMoreButton{width:642px;margin-left:-24px;} 
+.-cx-PRIVATE-Post__flexible .-cx-PRIVATE-PostInfo__commentsLoadMoreButton{width:280px;}
+
+/*profile*/
+.-cx-PRIVATE-ProfilePage__username{color:#7BB5E0!important;}
+.-cx-PRIVATE-ProfilePage__fullName,.spring-refresh .tab-content h1{color:#999!important;}
+.-cx-PRIVATE-ProfilePage__statistic{text-transform:uppercase!important;color:#666!important;}
+.-cx-PRIVATE-PostsStatistic__count,.-cx-PRIVATE-FollowedByStatistic__count,.-cx-PRIVATE-FollowsStatistic__count{color:#939393;}
+.-cx-PRIVATE-PostsGridItem__postInfo{background-color:rgba(0,0,0,0.8);border:1px solid #505050;}
+.-cx-PRIVATE-IGButton__neutral{color:#242424;background:#818488;}
+.-cx-PRIVATE-IGButton__neutral:hover, .-cx-PRIVATE-IGButton__neutral.zeroclipboard-is-hover{color:#2D6599;border-color:#818488}
+
+.-cx-PRIVATE-AdvisoryMessage__root{border:1px solid #242424;border-radius:0;background-color:#151515;}
+  
+[style="max-width:975px;"] .-cx-PRIVATE-Navigation__brand{left:50px;}
+[style="max-width:975px;"] .-cx-PRIVATE-Navigation__menuItems a:first-child{right:58px!important;}
+[style="max-width:975px;"] a[href="/accounts/logout/"]{right:28px!important;}
+  
+/*hearts*/
+.coreSpriteHeartOpen:hover{background-position:-314px -92px;}
+  
+/*photo*/
+.-cx-PRIVATE-Post__flexible.-cx-PRIVATE-Post__root{background-color:#151515;}
+.-cx-PRIVATE-PostLikers__likeCount{color: rgb(155, 155, 155)!important;}
+.-cx-PRIVATE-Photo__root{box-shadow: 0 0 34px #000 !important;}
+
+/*hash*/
+.-cx-PRIVATE-TagPage__header{color:#ccc;}
+
+/*tweaks*/
+@media screen and (-webkit-min-device-pixel-ratio:0){body{font-family:Helvetica,Arial,sans-serif,Segoe UI Symbol,Symbola!important;}}
+
+::-webkit-scrollbar-track{background:rgba(15, 15, 15, 1)!important;}
+::-webkit-scrollbar-thumb{background-color:#254E6F!important;min-height:50px;border-radius:2px;}/*9B9B9B*/
+::-webkit-scrollbar{width:8px!important;}

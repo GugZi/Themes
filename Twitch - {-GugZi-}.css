@@ -1,0 +1,44 @@
+/* 
+ * Name:    Twitch – Custom colors video player
+ * Title:   Change the color of Twitch HTML5 player buttons, when your cursor is hovering the buttons.
+ * Author:  Crystallis
+ * Version: 0.2
+ *
+ */
+
+.player-loading-spinner {
+    border-left: .3em solid #F4A300 ! important;
+}
+
+.player-button svg {
+    fill: #FF5900;
+}
+
+.player-button:hover:enabled svg {
+    fill: #F4A300 ! important;
+}
+
+.player-livestatus__online:before {
+    background: #F4A300 ! important;
+}
+
+.player-video-issue__submit {
+    background: #F4A300 ! important;
+}
+
+.player-slider .ui-slider-range {
+    background: #F4A300 ! important;
+}
+
+.player-button:hover .player-tip {
+    display: none ! important;
+}
+
+.conversations-content .conversations-list-icon {
+    display: none;
+}
+
+.theatre .player-controls-bottom,
+.theatre .player[data-controls=true] .player-controls-bottom {
+    padding-bottom: 0px;
+}

@@ -1,0 +1,442 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+::-webkit-scrollbar {
+  height: 12px!important;
+  width: 12px!important;
+  background: -webkit-linear-gradient(40deg , #000000 , #1e1e1e , #000000 100%)!important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #840000!important;
+  border-radius: 16px!important;
+}
+::-webkit-input-placeholder{color: #ed1c24!important;}
+
+/*Enable vertical scrolling on the custom css text box*/
+#txtCustomCss{
+   overflow-y:scroll;
+}
+
+.ui-body-a, .ui-page-theme-a,.ui-page-theme-b .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a,.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper,.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a {
+  color: rgba(121, 121, 121, 1) !important;
+}
+
+/*Box-Shadow Remover*/
+.ui-page-theme-b .ui-btn:focus, html .ui-body-b .ui-btn:focus, html body .ui-group-theme-b .uibtn:focus, html head+body .ui-btn.ui-body-b:focus, .ui-page-theme-b .ui-focus, html .ui-bar-b .ui-focus, html .ui-body-b .ui-focus, html body .ui-group-theme-b .ui-focus, html head+body .ui-btn-b.ui-focus, html head+body .ui-body-b.ui-focus
+{box-shadow: 0 0 0 !important;-webkit-box-shadow: 0 0 0 !important;}
+
+/*Remove 'Missing Trailer' icon in metadata editor*/
+img[src='css/images/editor/missingtrailer.png'] {
+   display:none;
+}
+
+/* Removes Blue Edit Buttons */
+.accentButton {
+   display: none;
+}
+.ui-panel.ui-body-b,.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a,.ui-page-theme-a .content-secondary, .ui-page-theme-b {
+  background-image: linear-gradient(to right bottom, rgba(32, 0, 0, 0.75) 52%, rgba(0, 0, 0, 0.75) 53%, rgba(26, 0, 0, 0.75) 100%)!important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border-radius: 0px 0px 0px 0px !important;
+  box-shadow: 0 0 3px #000 !important;
+  border-color: #1D0000 #1D0000 #1D0000 #1D0000!important;
+}
+/* Dark Dashboard theme */
+.ui-page-theme-a {
+  background-image: linear-gradient(to top, #000000 0%, #000000 0%, #490000 100%)!important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  box-shadow: 0 0 34px #000 !important;
+}
+.ui-page-theme-a .selectedSidebarLink {
+  background-color: #474747 !important;
+}
+.sidebarLink:hover {
+  background-color: #373737;
+}
+.ui-page-theme-a .ui-bar-inherit {
+  border-color: #555;
+  background-color: #555;
+  color: #fff;
+}
+.ui-page-theme-a .sidebarLinkIcon {
+  color: #fff;
+}
+.newsItem {
+  border-bottom: 1px solid #555;
+}
+.ui-page-theme-a .detailSectionHeader {
+  background-color: #333 !important;
+  border-color: #1f1f1f !important;
+  color: #fff;
+}
+.ui-body-a {
+  background-color: #111;
+  color: #fff;
+}
+.ui-body-a .ui-btn {
+  border: 1px solid #555 !important;
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+.activeSession:not(.playingSession) .sessionNowPlayingInnerContent {
+  background-color: #252525;
+  color: #fff;
+  border: 1px solid #555;
+}
+.warningFieldDescription {
+  color: #000;
+}
+.remoteImageDetails{
+  background:#333;
+}
+
+.ui-overlay-a {
+  background-color: #252525;
+}
+#fldConnectInfo {
+  background: #333 !important;
+}
+
+.remoteImageDetails {
+  background:#333;
+}
+
+
+/*Sets the Icon's in the Dashboard and Mediaplayer to Red*/
+.sidebarLinkIcon:before {
+   color: #F00;
+}
+#footer {
+  color: #F00;
+}
+
+/*Change 'Played' icon background to red for better visual separation */
+.playedIndicator {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right bottom, rgba(32, 0, 0, 0.75) 52%, rgba(0, 0, 0, 0.75) 53%, rgba(26, 0, 0, 0.75) 100%)!important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border-radius: 0px 0px 0px 0px !important;
+  box-shadow: 0 0 3px #000 !important;
+  border-color: #1D0000 #1D0000 #1D0000 #1D0000!important;
+}
+/* Changes the My Media(Buttons) to match the theme and remove the color*/
+.smallBackdropCard .cardText {
+border-radius:4px;
+background-color: #111;
+color: #fff;
+border: 2px solid rgba(255,255,255,0.75);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,255,255,0.75);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,255,255,.6);
+}
+
+.visualCardBox {
+border-radius:4px;
+background-color: #111;
+color: #F00;
+-webkit-box-shadow: 0px 0px 5px 2px rgba(255,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 2px rgba(255,0,0,0.75);
+box-shadow: 0px 0px 5px 2px rgba(255,0,0,0.75);
+}
+
+::cue {
+  color: yellow;
+  background: none;
+}
+
+.cardOverlayTarget {
+  background-image: linear-gradient(to right bottom, rgba(32, 0, 0, 0.75) 52%, rgba(0, 0, 0, 0.75) 53%, rgba(26, 0, 0, 0.75) 100%)!important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border-radius: 0px 0px 0px 0px !important;
+  box-shadow: 0 0 3px #000 !important;
+  border-color: #1D0000 #1D0000 #1D0000 #1D0000!important;
+}
+
+.itemBackdrop:not(.noBackdrop) {
+  height: 720px;
+}
+
+.nowPlayingBar {
+  padding: 5px 0 5px 0;
+  border-top: 2px solid #F00;
+}
+
+.cardBox {
+  margin: 5px;
+}
+
+.ui-icon-play:after {
+  background-color: rgba(0, 0, 0, 0);
+}
+.ui-icon-video:after {
+  background-color: rgba(0, 0, 0, 0);
+}
+.ui-icon-cloud:after {
+  background-color: rgba(0, 0, 0, 0);
+}
+.ui-icon-ellipsis-v:after {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.ui-page-theme-a .sidebarDivider {
+  background: #F00 !important;
+}
+.ui-page-theme-a .sidebarHeader {
+  color: #FFF;
+}
+
+.itemDetailImage {
+  box-shadow: none;
+}
+
+
+.ui-controlgroup-vertical .ui-controlgroup-controls .ui-btn {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+.ui-controlgroup-controls {
+  background-image: linear-gradient(to right bottom, #330000 52%, #000000 53%, #3F0000 100%)!important;
+  border-radius: 0px 0px 10px 10px !important;
+  box-shadow: 0 0 34px #000 !important;
+}
+
+.cardProgress {
+  background: url("http://files.enjin.com/106810/websitestyles/youtube/red/1we1.GIF") repeat !important;
+  background-size: 100% 11px !important;
+  width: 95%;
+  margin: auto;
+}
+.cardProgress .itemProgressBar {
+  background: no-repeat url(http://files.enjin.com/106810/websitestyles/youtube/red/13.GIF) !important;
+  background-size: 100% 8px !important;
+  box-shadow: 0 0 12px #000000 !important;
+}
+
+.detailImageProgressContainer progress {
+  background: url("http://files.enjin.com/106810/websitestyles/youtube/red/1we1.GIF") repeat !important;
+  background-size: 100% 11px !important;
+  width: 89%;
+  margin: 41px auto;
+  height: 6px;
+}
+
+.itemOverview {
+  text-overflow: ellipsis;
+  height: 81px;
+  max-height: 100px;
+  padding-right: .5em;
+  overflow-y: auto;
+}
+
+.thumbDetailImageContainer img {
+  max-width: 534px;
+  max-height: 360px;
+  margin: -45px 0px 0px 5px;
+  width: 360px;
+  height: auto;
+}
+
+p#seriesAirTime {
+  margin-top: -10px;
+  margin-left: -960px;
+  text-align: center;
+}
+
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+  color: rgba(121, 121, 121, 1) !important;
+  border-radius: 2px !important;
+  border: 1px solid #000000 !important;
+  box-shadow: 0px 1px rgba(136, 0, 0, 0.32) inset, 0px 1px 3px rgba(0, 0, 0, 0.5) !important;
+  background: linear-gradient(#270000, #4A0000) !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.ui-page-theme-a .ui-btn,.ui-body-a .ui-btn,.ui-page-theme-b .ui-btn {
+  border: 1px solid #000000 !important;
+  border-radius: 2px !important;
+  box-shadow: 0px 1px rgba(136, 0, 0, 0.32) inset, 0px 1px 3px rgba(0, 0, 0, 0.5) !important;
+  background: linear-gradient(#270000, #4A0000) !important;
+  transition: all 0.3s ease-in-out !important;
+}
+.ui-page-theme-a .ui-btn:hover,.ui-body-a .ui-btn:hover,.ui-page-theme-a .ui-btn:active,.ui-page-theme-a .ui-btn.ui-btn-active,.ui-page-theme-a a:active,.ui-collapsible-heading, .ui-collapsible-heading>.ui-btn,.ui-page-theme-b .ui-btn:hover {
+  background: linear-gradient(rgb(92, 0, 0), rgb(27, 27, 27)) !important;
+  color: rgb(255,255,255) !important;
+  text-shadow: none !important;
+}
+
+.itemBackdropContent {
+  background-image: linear-gradient(to right bottom, rgba(32, 0, 0, 0.75) 52%, rgba(0, 0, 0, 0.75) 53%, rgba(26, 0, 0, 0.75) 100%)!important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border-radius: 10px 10px 0px 0px !important;
+  box-shadow: 0 0 3px #000 !important;
+  border-color: #1D0000 #1D0000 #1D0000 #1D0000!important;
+}
+.portraitDetailImageContainer,.detailContentEffectedByPortraitImage {
+  bottom: -130px;
+}
+
+.ui-page-theme-a .selectedSidebarLink, .sidebarLink:hover {
+  background: linear-gradient(rgb(92, 0, 0), rgb(27, 27, 27)) !important;
+  color: rgb(255,255,255) !important;
+}
+
+.ui-page-theme-a .detailSectionHeader,.ui-page-theme-a .ui-bar-inherit,.downloadLanguages {
+  border-color: #282828 !important;
+  border: 1px solid;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5)!important;
+  box-shadow: inset 0 0 5px black;
+}
+.downloadLanguages {
+  height: 145px !important;
+  border-color: #282828 !important;
+  border: 1px solid;
+  box-shadow: inset 0 0 5px black;
+}
+.ui-listview, .ui-listview>li {
+  margin: 0 !important;
+  padding: 0;
+  list-style: none;
+}
+
+.ui-btn.ui-checkbox-off:after, .ui-btn.ui-checkbox-on:after, .ui-btn.ui-radio-off:after, .ui-btn.ui-radio-on:after {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: -11px 1px 0 -2px;
+}
+.ui-checkbox input, .ui-radio input {
+  position: absolute;
+  left: .466em;
+  top: 50%;
+  width: 19px;
+  height: 19px;
+  margin: -11px 0 0 0;
+  outline: 0!important;
+  z-index: 1;
+}
+
+.viewMenuBar {
+  border-radius: 2px !important;
+  background: linear-gradient(#6C0000, rgba(74, 0, 0, 0)) !important;
+  transition: all 0.3s ease-in-out !important;
+}
+.libraryViewNavInner {
+  background-color: rgba(74, 0, 0, 0) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui-input-text,.ui-input-search input {
+	background: #222922 !important;
+	background: -webkit-linear-gradient(#333, #222) !important;
+	background: -moz-linear-gradient(#333, #222) !important;
+	background: -o-linear-gradient(#333, #222) !important;
+	background: -ms-linear-gradient(#333, #222) !important;
+	background: linear-gradient(#333, #222) !important;
+	border: 1px solid #444 !important;
+	border-radius: 5px 0 0 5px !important;
+	box-shadow: inset 0 0 5px #000 !important;
+	color: rgba(121, 121, 121, 1) !important;
+	display: block !important;
+}
+.ui-input-text:focus,.ui-input-search input:focus,.ui-input-text input:focus,.ui-popup {
+  -webkit-animation: glow 800ms ease-out infinite alternate !important;
+	-moz-animation: glow 800ms ease-out infinite alternate !important;
+	-o-animation: glow 800ms ease-out infinite alternate !important;
+	-ms-animation: glow 800ms ease-out infinite alternate !important;
+	animation: glow 800ms ease-out infinite alternate !important;
+	outline: none!important;
+  background: linear-gradient(rgb(92, 0, 0), rgb(27, 27, 27)) !important;
+	border-color: #933 !important;
+	box-shadow: 0 0 5px rgba(255, 0, 0, 0.2), inset 0 0 5px rgba(255, 0, 0, 0.1), 0 2px 0 #000 !important;
+	color: #efe !important;
+	outline: none !important;
+}
+
+@-webkit-keyframes glow {
+    0% {
+		border-color: #933;
+		box-shadow: 0 0 5px rgba(255, 0, 0, 0.2), inset 0 0 5px rgba(255, 0, 0, 0.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #933;
+		box-shadow: 0 0 20px rgba(255,0,0,.6), inset 0 0 10px rgba(255,0,0,.4), 0 2px 0 #000;
+    }
+}
+
+
+@-webkit-keyframes pulse {
+  0% {-webkit-box-shadow: 0 0 5px 0 rgba(255,0,0,1), 0 0 0px 0 rgba(240,0,0,.9);}
+  75% {-webkit-box-shadow: 0 0 15px 10px rgba(255,0,0,1), 0 0 90px 0 rgba(240,0,0,.9);}
+  100% {-webkit-box-shadow: 0 0 2px 0 rgba(255,0,0,1), 0 0 2px 0 rgba(240,0,0,.8);}
+}
+.slidedown.in {
+  -webkit-animation-name: pulse;
+  -webkit-animation-duration: .9s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-out;
+}
+		
+
+
+
+
+
+
+
+
+
+::-webkit-option {
+  background-color: red
+}
+
+::-webkit-resizer {
+  overflow: auto;
+  resize: vertical;
+  background-color: transparent
+}
