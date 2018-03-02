@@ -531,7 +531,7 @@ button.btn.btn-sm.btn-primary-outline.dropdown-toggle {
     border: none!important;
     padding: 0;
     color: hsla(0,0%,100%,.65)!important;
-    background: rgba(0, 0, 0, 0)!important;
+    background: rgba(0, 0, 0, 0) !important;
     font-family: "Open Sans Semibold", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
     font-stretch: normal;
