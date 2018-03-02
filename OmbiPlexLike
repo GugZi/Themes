@@ -513,6 +513,15 @@ movie-requests > div.form-group:before{
     line-height: 60px;
     z-index: 9999;
 }
+.btn-success-outline {
+    background-color: rgba(92, 184, 92, 0.35)!important;
+}
+.btn-danger-outline {
+    background-color: rgba(217, 83, 79, 0.35)!important;
+}
+.btn-primary-outline {
+    background-color: rgba(250, 117, 27, 0.35)!important;
+}
 .btn-primary-outline:focus, .btn-primary-outline:hover, .open>.btn-primary-outline.dropdown-toggle {
     color: rgb(255, 255, 255)!important;
     background-color: rgb(250, 117, 27)!important;
