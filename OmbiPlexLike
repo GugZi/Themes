@@ -241,6 +241,19 @@ body > ombi > div > nav > div > div.navbar-header > div > a {
     width: 235px;
     border-radius: 0 4px 4px 0;
 }
+#Issues {
+    top: 220px;
+    position: fixed;
+    top: 225px;
+    left: 0;
+    font-size: 13px;
+    font-family: "Open Sans Semibold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+#Issues > a {
+    width: 235px;
+    border-radius: 0 4px 4px 0;
+}
 #UserManagement:before {
     content: "Admin";
     position: fixed;
