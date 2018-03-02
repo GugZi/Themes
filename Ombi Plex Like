@@ -382,7 +382,6 @@ body > ombi > div> .container {
 .nav-tabs>li {
     font-size: 20px;
     line-height: 36px;
-    float: right;
     margin-left: 30px;
     cursor: pointer;
 }
