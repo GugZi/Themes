@@ -513,9 +513,9 @@ movie-requests > div.form-group:before{
     z-index: 9999;
 }
 .btn-primary-outline:focus, .btn-primary-outline:hover, .open>.btn-primary-outline.dropdown-toggle {
-    color: #fff!important;
-    background-color: transparent!important;
-    border-color: transparent !important;
+    color: rgb(255, 255, 255)!important;
+    background-color: rgb(250, 117, 27)!important;
+    border-color: rgba(0, 0, 0, 0) !important;
 }
 .input-group-addon .btn-group .btn {
     border: none!important;
