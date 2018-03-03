@@ -179,7 +179,7 @@ body > ombi > div > nav > div > div.navbar-header > div > a {
     display: block;
 }
 .input-group-btn, .input-group-btn>.btn {
-    top: -14px;
+    top: 18px;
     height: 35px;
 }
 .dropdown-menu>li>a {
@@ -218,7 +218,7 @@ body > ombi > div > nav > div > div.navbar-header > div > a {
     top: 60px;
     left: 0;
     padding-bottom: 100vh;
-    padding-top: 85px;
+    padding-top: 34px;
     padding-right: 150px;
     background: rgba(0,0,0,.2);
     width: 240px;
@@ -273,6 +273,15 @@ body > ombi > div > nav > div > div.navbar-header > div > a {
     font-family: Open Sans Bold,Helvetica Neue,Helvetica,Arial,sans-serif;
     line-height: 45px;
     font-weight: 600;
+}
+#ApiKey {
+    width: 670px;
+}
+#refreshKey {
+    position: fixed;
+    top: 382px;
+    left: 1035px;
+    z-index: 2;
 }
 .fa.fa-user {
     padding-left: 2px;
@@ -483,18 +492,15 @@ body > ombi > div> .container {
 movie-requests > div.form-group {
     margin: 40px 0;
 }
-movie-requests > div.form-group:before{
+movie-requests > div.form-group:before {
     content: "\F002";
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: 15px;
-    font-weight: 400;
-    text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding-left: 16px;
-    height: 15px;
-    width: 15px;
+    position: fixed;
+    top: 259px;
 }
 .input-group > .input-group-addon.right-radius > .btn-group {
     position: fixed;
@@ -518,6 +524,9 @@ movie-requests > div.form-group:before{
 }
 .btn-danger-outline {
     background-color: rgba(217, 83, 79, 0.35)!important;
+}
+.btn-primary-outline {
+    background-color: rgba(250, 117, 27, 0.35)!important;
 }
 button.btn.btn-sm.btn-primary-outline.dropdown-toggle {
     background-color: rgba(250, 117, 27, 0.35)!important;
